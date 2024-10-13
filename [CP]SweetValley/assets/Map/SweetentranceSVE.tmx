@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="1" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="2">
+ <tileset firstgid="1" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+  <image source="asstes/spring_outdoorsTileSheet.png" width="400" height="1264"/>
+ </tileset>
+ <tileset firstgid="1976" name="Map" tilewidth="16" tileheight="16" tilecount="592" columns="37">
+  <image source="asstes/Map.png" width="592" height="256"/>
+ </tileset>
+ <layer id="9" name="Back" width="1" height="2">
+  <data encoding="base64" compression="zlib">
+   eJyrZWRgmAbEAAZSARY=
+  </data>
+ </layer>
+ <layer id="10" name="Back1" width="1" height="2">
+  <data encoding="base64" compression="zlib">
+   eJxjYIAAAAAIAAE=
+  </data>
+ </layer>
+ <objectgroup id="2" name="Back"/>
+ <layer id="3" name="Buildings" width="1" height="2">
+  <data encoding="base64" compression="zlib">
+   eJxjYGBgqOFgYAAAAhAAhQ==
+  </data>
+ </layer>
+ <objectgroup id="4" name="Buildings">
+  <object id="1" name="TileData" x="0" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="Warp 23 51 Custom_SweetValley.Sweet"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="5" name="Front" width="1" height="2">
+  <data encoding="base64" compression="zlib">
+   eJwL52AAAwAC+ABg
+  </data>
+ </layer>
+ <objectgroup id="6" name="Front"/>
+ <layer id="7" name="Front2" width="1" height="2">
+  <data encoding="base64" compression="zlib">
+   eJw7ycwABgAGZQDN
+  </data>
+ </layer>
+ <objectgroup id="8" name="Front2"/>
+</map>

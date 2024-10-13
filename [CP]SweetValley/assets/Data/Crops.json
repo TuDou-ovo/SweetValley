@@ -28,7 +28,7 @@
                     "HarvestItemID": "243",
                     "HarvestMethod": "0",
                     "Texture": "Mods/SweetValley/Crops",
-                    "SpriteIndex": 0
+                    "SpriteIndex": 1
                 }
             }
         },
@@ -54,7 +54,13 @@
                     "HarvestItemID": "SweetValley.Roundlollipop",
                     "HarvestMethod": "0",
                     "Texture": "Mods/SweetValley/Crops",
-                    "SpriteIndex": 1
+                    "TintColors": [
+                        "#ff7ccc",
+                        "#ff5f3f",
+                        "#e83b49",
+                        "#f983ea"
+                    ],
+                    "SpriteIndex": 0
                 }
             }
         },
@@ -63,7 +69,7 @@
             "Action": "EditData",
             "Target": "Data/Crops",
             "Entries": {
-                "SweetValley.Roundlollipop_seed": {
+                "SweetValley.waxgourd_seed": {
                     "DaysInPhase": [
                         3,
                         4,
@@ -76,13 +82,12 @@
                     ],
                     "RegrowDays": 2,
                     "IsRaised": false,
-                    "HarvestItemID": "SweetValley.Roundlollipop",
+                    "HarvestItemID": "SweetValley.waxgourd",
                     "HarvestMethod": "1",
                     "Texture": "Mods/SweetValley/Crops",
                     "SpriteIndex": 2
                 }
             }
         }
-       
     ]
 }

@@ -15,6 +15,7 @@ Added candy themed items
 模组持续更新优化中，因为制作只有我一个人，所以可能会有我测试不到的bug，希望随时反馈我会尽快修复...！
 模组评论区或者我的 *bilibili* 账号 *GitHub* 网站 的反馈我都可以收到 
 https://space.bilibili.com/437874639
+https://github.com/TuDou-ovo/SweetValley
 The module is continuously being updated and optimized. As I am the only one in charge of production, there may be bugs that I cannot test. I hope to receive feedback at any time and I will fix them as soon as possible!
 I can receive feedback from the mod comment section or my * bilibili * account * Github * website
 
@@ -30,10 +31,11 @@ Finally, thank you in advance for downloading and liking it. I am honored~
 
 地图入口：秘密森林雕像旁
 Map entrance: Next to the statue of the Secret Forest
-
+https://i.ibb.co/wc9gbxr/Map1.png
 
 地图展示：一条不知道源头的巧克力小溪穿过山谷，旁边坐落着一家小小的糖果屋商店
 Map display: A chocolate stream with an unknown source runs through the valley, and next to it is a small candy shop
+https://i.ibb.co/6tvqyzL/Map2.png
 
 
 作物·Crops

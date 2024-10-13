@@ -11,7 +11,7 @@
             "Action": "EditData",
             "Target": "Data/AquariumFish",
             "Entries": {
-                "SweetValley.Squaresugarfish": "0/crawl/////Mods\\SweetValley\\AquariumFish"
+                "SweetValley.Squaresugarfish": "0/front_crawl/////Mods\\SweetValley\\AquariumFish"
             }
         },
         {

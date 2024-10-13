@@ -29,7 +29,7 @@
           "SectionId": "{{ModId}}_SweetValley",
           "DisplayName": "{{i18n:cjb_Sweet}}",
           "Location": "Custom_SweetValley.Sweet",
-          "Tile": "0, 0"
+          "Tile": "20, 21"
         }
       }
     },
@@ -85,6 +85,14 @@
       "LogName": "树",
       "Action": "Include",
       "FromFile": "assets/Data/Trees.json"
-    }
+    },
+    //{
+    //   "LogName": "SVE",
+    //   "Action": "Include",
+    //   "FromFile": "assets/Data/SVE.json",
+    //"When": {
+    //  "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+    //}
+    //}
   ]
 }

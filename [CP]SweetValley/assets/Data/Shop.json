@@ -22,115 +22,103 @@
                         }
                     ],
                     "Items": [
-                        {
+                        { //图腾
                             "ID": "SweetValley.totem",
                             "Price": 100,
                             "ItemID": "(O)SweetValley.totem"
                         },
-                        {
+                        { //波板糖
                             "ID": "SweetValley.Lollipop_seed",
-                            "Price": 100,
+                            "Price": 80,
                             "ItemID": "(O)SweetValley.Lollipop_seed"
                         },
-                        {
+                        { //波板糖
                             "ID": "SweetValley.Roundlollipop_seed",
-                            "Price": 100,
+                            "Price": 75,
                             "ItemID": "(O)SweetValley.Roundlollipop_seed"
                         },
-                        {
+                        { //冬瓜
                             "ID": "SweetValley.waxgourd_seed",
-                            "Price": 100,
+                            "Price": 80,
                             "ItemID": "(O)SweetValley.waxgourd_seed"
                         },
-                        {
+                        { //棉花糖树
                             "ID": "SweetValley.cottoncandy_seed",
-                            "Price": 100,
+                            "Price": 200,
                             "ItemID": "(O)SweetValley.cottoncandy_seed"
                         },
-                        {
-                            "ID": "SweetValley.Lollipophammer",
-                            "Price": 10000,
-                            "ItemID": "(O)SweetValley.Lollipophammer"
-                        },
-                        {
+                        { //柠檬树
                             "ID": "SweetValley.lemon_seed",
-                            "Price": 1200,
+                            "Price": 3000,
                             "ItemID": "(O)SweetValley.lemon_seed"
                         },
-                        {
+                        { //柚子树
                             "ID": "SweetValley.pomelo_seed",
-                            "Price": 1200,
+                            "Price": 3000,
                             "ItemID": "(O)SweetValley.pomelo_seed"
                         },
-                        {
+                        { //黄油
                             "ID": "SweetValley.butter",
                             "Price": 50,
                             "ItemID": "(O)SweetValley.butter"
                         },
-                        {
-                            "ID": "SweetValley.Dryingrack_Recipes",
-                            "Price": 500,
-                            "ItemID": "(O)SweetValley.Dryingrack_Recipes",
+                        { //麦芽
+                            "ID": "SweetValley.malt",
+                            "Price": 40,
+                            "ItemID": "(O)SweetValley.malt"
+                        },
+                        { //图腾配方
+                            "ID": "SweetValley.totem",
+                            "Price": 100,
+                            "ItemID": "(O)SweetValley.totem",
                             "IsRecipe": true
                         },
-                        {
-                            "ID": "SweetValley.Candycrucible_Recipes",
-                            "Price": 500,
-                            "ItemID": "(O)SweetValley.Candycrucible_Recipes",
-                            "IsRecipe": true
-                        },
-                        {
-                            "ID": "SweetValley.totem_Recipes",
+                        { //龙须酥配方
+                            "ID": "SweetValley.Dragonbeardpastry",
                             "Price": 200,
-                            "ItemID": "(O)SweetValley.totem_Recipes",
+                            "ItemID": "(O)SweetValley.Dragonbeardpastry",
                             "IsRecipe": true
                         },
-                        {
-                            "ID": "SweetValley.Dragonbeardpastry_Recipes",
-                            "Price": 300,
-                            "ItemID": "(O)SweetValley.Dragonbeardpastry_Recipes",
+                        { //糖苹果配方
+                            "ID": "SweetValley.candyapple",
+                            "Price": 150,
+                            "ItemID": "(O)SweetValley.candyapple",
                             "IsRecipe": true
                         },
-                        {
-                            "ID": "SweetValley.candyapple_Recipes",
-                            "Price": 300,
-                            "ItemID": "(O)SweetValley.candyapple_Recipes",
+                        { //馅饼
+                            "ID": "SweetValley.Syruppie",
+                            "Price": 200,
+                            "ItemID": "(O)SweetValley.Syruppie",
                             "IsRecipe": true
                         },
-                        {
-                            "ID": "SweetValley.Syruppie_Recipes",
-                            "Price": 300,
-                            "ItemID": "(O)SweetValley.Syruppie_Recipes",
+                        { //葱
+                            "ID": "SweetValley.Sugaronion",
+                            "Price": 100,
+                            "ItemID": "(O)SweetValley.Sugaronion",
                             "IsRecipe": true
                         },
-                        {
-                            "ID": "SweetValley.Sugaronion_Recipes",
-                            "Price": 300,
-                            "ItemID": "(O)SweetValley.Sugaronion_Recipes",
+                        { //拐杖糖
+                            "ID": "SweetValley.Candycane",
+                            "Price": 150,
+                            "ItemID": "(O)SweetValley.Candycane",
                             "IsRecipe": true
                         },
-                        {
-                            "ID": "SweetValley.Candycane_Recipes",
-                            "Price": 300,
-                            "ItemID": "(O)SweetValley.Candycane_Recipes",
+                        { //布丁
+                            "ID": "SweetValley.pudding",
+                            "Price": 200,
+                            "ItemID": "(O)SweetValley.pudding",
                             "IsRecipe": true
                         },
-                        {
-                            "ID": "SweetValley.pudding_Recipes",
-                            "Price": 300,
-                            "ItemID": "(O)SweetValley.pudding_Recipes",
+                        { //啤酒
+                            "ID": "SweetValley.butterbeer",
+                            "Price": 200,
+                            "ItemID": "(O)SweetValley.butterbeer",
                             "IsRecipe": true
                         },
-                        {
-                            "ID": "SweetValley.butterbeer_Recipes",
-                            "Price": 300,
-                            "ItemID": "(O)SweetValley.butterbeer_Recipes",
-                            "IsRecipe": true
-                        },
-                        {
-                            "ID": "SweetValley.MousseCake_Recipes",
-                            "Price": 300,
-                            "ItemID": "(O)SweetValley.MousseCake_Recipes",
+                        { //慕斯
+                            "ID": "SweetValley.MousseCake",
+                            "Price": 230,
+                            "ItemID": "(O)SweetValley.MousseCake",
                             "IsRecipe": true
                         }
                     ]

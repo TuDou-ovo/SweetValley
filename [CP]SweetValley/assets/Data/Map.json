@@ -6,22 +6,56 @@
             "Target": "Maps/Woods",
             "FromFile": "assets/Map/Sweetentrance.tmx",
             "ToArea": {
-                "X": 0,
-                "Y": 0,
+                "X": 15,
+                "Y": 8,
                 "Width": 1,
-                "Height": 1
+                "Height": 2
             },
-            "Update": "OnLocationChange"
+            "Update": "OnLocationChange",
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
         },
         {
             "LogName": "甜味谷传送点",
             "Action": "EditMap",
             "Target": "Maps/Custom_SweetValley.Sweet",
             "AddWarps": [
-                "0 0 Woods 0 0"
+                "22 53 Woods 15 10",
+                "23 53 Woods 15 10",
+                "24 53 Woods 15 10"
             ],
-            "MapProperties": {
-                "NPCWarp": "0 0 Woods 0 0"
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
+        },
+        {
+            "LogName": "替换甜味谷入口",
+            "Action": "EditMap",
+            "Target": "Maps/Woods",
+            "FromFile": "assets/Map/SweetentranceSVE.tmx",
+            "ToArea": {
+                "X": 66,
+                "Y": 6,
+                "Width": 1,
+                "Height": 2
+            },
+            "Update": "OnLocationChange",
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+            }
+        },
+        {
+            "LogName": "甜味谷传送点",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SweetValley.Sweet",
+            "AddWarps": [
+                "22 53 Woods 66 8",
+                "23 53 Woods 66 8",
+                "24 53 Woods 66 8"
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
             }
         },
         {
