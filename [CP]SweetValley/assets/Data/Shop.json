@@ -1,0 +1,141 @@
+{
+    "Changes": [
+        {
+            "LogName": "商店",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "SweetValley.Shop": {
+                    "Owners": [
+                        {
+                            "Name": "None",
+                            "Dialogues": [
+                                {
+                                    "ID": "SweetValley.ShopOpen",
+                                    "Dialogue": "{{i18n:Shop.de}}"
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "None",
+                            "ClosedMessage": "{{i18n:Shop.cde}}"
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "ID": "SweetValley.totem",
+                            "Price": 100,
+                            "ItemID": "(O)SweetValley.totem"
+                        },
+                        {
+                            "ID": "SweetValley.Lollipop_seed",
+                            "Price": 100,
+                            "ItemID": "(O)SweetValley.Lollipop_seed"
+                        },
+                        {
+                            "ID": "SweetValley.Roundlollipop_seed",
+                            "Price": 100,
+                            "ItemID": "(O)SweetValley.Roundlollipop_seed"
+                        },
+                        {
+                            "ID": "SweetValley.waxgourd_seed",
+                            "Price": 100,
+                            "ItemID": "(O)SweetValley.waxgourd_seed"
+                        },
+                        {
+                            "ID": "SweetValley.cottoncandy_seed",
+                            "Price": 100,
+                            "ItemID": "(O)SweetValley.cottoncandy_seed"
+                        },
+                        {
+                            "ID": "SweetValley.Lollipophammer",
+                            "Price": 10000,
+                            "ItemID": "(O)SweetValley.Lollipophammer"
+                        },
+                        {
+                            "ID": "SweetValley.lemon_seed",
+                            "Price": 1200,
+                            "ItemID": "(O)SweetValley.lemon_seed"
+                        },
+                        {
+                            "ID": "SweetValley.pomelo_seed",
+                            "Price": 1200,
+                            "ItemID": "(O)SweetValley.pomelo_seed"
+                        },
+                        {
+                            "ID": "SweetValley.butter",
+                            "Price": 50,
+                            "ItemID": "(O)SweetValley.butter"
+                        },
+                        {
+                            "ID": "SweetValley.Dryingrack_Recipes",
+                            "Price": 500,
+                            "ItemID": "(O)SweetValley.Dryingrack_Recipes",
+                            "IsRecipe": true
+                        },
+                        {
+                            "ID": "SweetValley.Candycrucible_Recipes",
+                            "Price": 500,
+                            "ItemID": "(O)SweetValley.Candycrucible_Recipes",
+                            "IsRecipe": true
+                        },
+                        {
+                            "ID": "SweetValley.totem_Recipes",
+                            "Price": 200,
+                            "ItemID": "(O)SweetValley.totem_Recipes",
+                            "IsRecipe": true
+                        },
+                        {
+                            "ID": "SweetValley.Dragonbeardpastry_Recipes",
+                            "Price": 300,
+                            "ItemID": "(O)SweetValley.Dragonbeardpastry_Recipes",
+                            "IsRecipe": true
+                        },
+                        {
+                            "ID": "SweetValley.candyapple_Recipes",
+                            "Price": 300,
+                            "ItemID": "(O)SweetValley.candyapple_Recipes",
+                            "IsRecipe": true
+                        },
+                        {
+                            "ID": "SweetValley.Syruppie_Recipes",
+                            "Price": 300,
+                            "ItemID": "(O)SweetValley.Syruppie_Recipes",
+                            "IsRecipe": true
+                        },
+                        {
+                            "ID": "SweetValley.Sugaronion_Recipes",
+                            "Price": 300,
+                            "ItemID": "(O)SweetValley.Sugaronion_Recipes",
+                            "IsRecipe": true
+                        },
+                        {
+                            "ID": "SweetValley.Candycane_Recipes",
+                            "Price": 300,
+                            "ItemID": "(O)SweetValley.Candycane_Recipes",
+                            "IsRecipe": true
+                        },
+                        {
+                            "ID": "SweetValley.pudding_Recipes",
+                            "Price": 300,
+                            "ItemID": "(O)SweetValley.pudding_Recipes",
+                            "IsRecipe": true
+                        },
+                        {
+                            "ID": "SweetValley.butterbeer_Recipes",
+                            "Price": 300,
+                            "ItemID": "(O)SweetValley.butterbeer_Recipes",
+                            "IsRecipe": true
+                        },
+                        {
+                            "ID": "SweetValley.MousseCake_Recipes",
+                            "Price": 300,
+                            "ItemID": "(O)SweetValley.MousseCake_Recipes",
+                            "IsRecipe": true
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

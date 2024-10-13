@@ -1,0 +1,120 @@
+甜味山谷
+Sweet Valley
+*Content Patcher*22256 Extra Machine Configs
+
+Tu_Dou
+
+1.0.0
+
+添加了以糖果为主题的物品
+Added candy themed items
+
+
+这是一个有很多糖果的模组·This is a mod with many candies
+
+模组持续更新优化中，因为制作只有我一个人，所以可能会有我测试不到的bug，希望随时反馈我会尽快修复...！
+模组评论区或者我的 *bilibili* 账号 *GitHub* 网站 的反馈我都可以收到 
+https://space.bilibili.com/437874639
+The module is continuously being updated and optimized. As I am the only one in charge of production, there may be bugs that I cannot test. I hope to receive feedback at any time and I will fix them as soon as possible!
+I can receive feedback from the mod comment section or my * bilibili * account * Github * website
+
+
+接下来是一些简短的介绍展示，当然在文件里有内置攻略哦！
+Next are some brief introductions, of course, there are built-in guides in the file!
+
+最后，提前感谢你的下载和喜欢，我很荣幸~
+Finally, thank you in advance for downloading and liking it. I am honored~
+
+
+﻿地图·Map
+
+地图入口：秘密森林雕像旁
+Map entrance: Next to the statue of the Secret Forest
+
+
+地图展示：一条不知道源头的巧克力小溪穿过山谷，旁边坐落着一家小小的糖果屋商店
+Map display: A chocolate stream with an unknown source runs through the valley, and next to it is a small candy shop
+
+
+作物·Crops
+
+波板糖：夏季以外的季节种植，15天后收获 *矿工特供*
+棒棒糖：夏季以外的季节种植，15天后收获 *棒棒糖*
+冬瓜：夏季和秋季种植，15天后收获 *冬瓜*，之后2天收获一次
+Lollipops: planted outside of summer, harvested after 15 days * specially provided by miners*
+Round lollipop: planted outside of summer, harvested in 15 days * Round lollipop*
+Wax gourd: planted in summer and autumn, harvested 15 days later *Wax gourd *, harvested once every 2 days thereafter
+
+https://i.ibb.co/fxBbyb1/Crops.png
+
+
+树木·Trees
+
+柠檬树：果树，秋天结果，收获 *柠檬*
+柚子树：果树，秋天结果，收获 *柚子*
+棉花糖树：野树，树液采集器获得 *棉花糖*
+Lemon tree: fruit tree, autumn fruit, harvest * lemon*
+Pomelo tree: Fruit tree, bears fruit in autumn, harvests * pomelo*
+Cotton Candy Tree: Wild tree, sap collector obtains * cotton candy*
+
+https://i.ibb.co/d7dZGbx/Trees.png
+
+
+﻿物品·Objects
+
+物品展示·Item Display
+黄油 / 方糖 / 玉米淀粉 / 糖浆 / 麦芽 / 甜味谷图腾 / 棒棒糖锤
+butter / Sugarcube / CornStarch / syrup / malt / totem / Lollipophammer
+
+菜品展示·Dish Display
+龙须酥 / 糖苹果 / 糖浆馅饼 / 糖葱 / 拐杖糖 / 布丁 / 黄油啤酒 / 慕斯蛋糕
+Dragonbeardpastry / candyapple / Syruppie / Sugaronion / Candycane / pudding / butterbeer / MousseCake
+
+https://i.ibb.co/2hmGpqC/Objects.png
+
+
+﻿鱼·Fish
+
+方糖鱼：你可以在巧克力小溪里找到它，如果把它放进鱼塘，它会产出糖和方糖
+Sugar Fish: You can find it in the chocolate creek, and if you put it in the fish pond, it will produce sugar and sugar cubes
+
+https://i.ibb.co/W5KfWSc/Fish.png
+
+
+
+﻿围栏·Fences
+
+波板糖围栏：七彩的糖果围栏
+棒棒糖围栏：带着果香味的圆滚滚的围栏
+棉花糖围栏：软乎乎的香甜围栏
+Lollipop fence: Colorful Candy Fence
+Round lollipop fence: a round and rolling fence with a fruity aroma
+Cotton Candy Fence: Soft and Sweet Fence
+
+
+﻿机器·Machine
+
+晾干架：糖浆→琥珀糖 / 鱼→鱼干
+熔炉：糖→糖浆
+磨坊：玉米→玉米淀粉 / 宝石甜莓→糖 / 方糖鱼→糖 / 方糖→糖
+Drying rack: syrup → amber sugar / fish → dried fish
+Furnace: Sugar → Syrup
+Mill: Corn → Corn Starch / Gemstone Sweet Berry → Sugar / Square Sugar Fish → Sugar / Square Sugar → Sugar
+
+https://i.ibb.co/QPWCp1J/Machine1.png
+
+糖果坩埚
+未碾米→年糕 / 麦芽→麦芽糖
+糖+水果→水果罐头 / 棉花糖+榛子→牛轧糖
+糖浆为原材料：柠檬→柠檬雪宝糖 / 柚子→柚子糖 / 野梅→话梅糖  / 冬瓜→冬瓜糖  / 椰子→椰子糖 / 姜→姜片糖 / 酒→酒心糖 / 奶→奶糖
+Candy crucible
+Unpolished rice → rice cake / malt → maltose
+Sugar+fruit → canned fruit / marshmallow+hazelnut → nougat
+Syrup as raw material: Lemon → Lemon Snow Sugar / Grapefruit → Grapefruit Sugar / Wild Plum → Plum Candy / Winter Melon → Winter Melon Sugar / Coconut → Coconut Sugar / Ginger → Ginger Candy / Wine → Wine Heart Sugar / Milk → Milk Sugar
+
+https://i.ibb.co/4PdtX6q/Machine2.png
+
+
+﻿兼容性·compatibility
+
+CJB传送点·CJB

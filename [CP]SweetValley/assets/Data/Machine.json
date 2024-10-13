@@ -1,0 +1,305 @@
+{
+    "Changes": [
+        {
+            "LogName": "机器贴图",
+            "Action": "Load",
+            "Target": "Mods/SweetValley/Animation",
+            "FromFile": "assets/Objects/Animation.png"
+        },
+        {
+            "LogName": "晾干架",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "SweetValley.Dryingrack": {
+                    "Name": "SweetValley.Dryingrack",
+                    "DisplayName": "{{i18n:Dryingrack.name}}",
+                    "Description": "{{i18n:Dryingrack.de}}",
+                    "Price": 80,
+                    "CanBePlacedOutDoors": true,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/SweetValley/Animation",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "糖果坩埚",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "SweetValley.Candycrucible": {
+                    "Name": "SweetValley.Candycrucible",
+                    "DisplayName": "{{i18n:Candycrucible.name}}",
+                    "Description": "{{i18n:Candycrucible.de}}",
+                    "Price": 350,
+                    "CanBePlacedOutDoors": true,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods/SweetValley/Animation",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "磨坊加工",
+            "Action": "EditData",
+            "Target": "Data/Buildings",
+            "TargetField": [
+                "Mill",
+                "ItemConversions"
+            ],
+            "Entries": {
+                "SweetValley.CornStarch": { //淀粉
+                    "Id": "SweetValley.CornStarch",
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "RequiredTags": [
+                        "id_o_270"
+                    ],
+                    "ProducedItems": [
+                        {
+                            "ItemId": "(O)SweetValley.CornStarch",
+                            "MinStack": 2
+                        }
+                    ],
+                    "MaxDailyConversions": 80
+                },
+                "417": { //甜美
+                    "Id": "417",
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "RequiredTags": [
+                        "id_o_417"
+                    ],
+                    "ProducedItems": [
+                        {
+                            "ItemId": "(O)245",
+                            "MinStack": 50
+                        }
+                    ],
+                    "MaxDailyConversions": 1000
+                },
+                "SweetValley.Squaresugarfish": { //鱼
+                    "Id": "SweetValley.Squaresugarfish",
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "RequiredTags": [
+                        "id_o_SweetValley.Squaresugarfish"
+                    ],
+                    "ProducedItems": [
+                        {
+                            "ItemId": "(O)245",
+                            "MinStack": 6
+                        }
+                    ],
+                    "MaxDailyConversions": 120
+                },
+                "SweetValley.Sugarcube": { //方糖
+                    "Id": "SweetValley.Sugarcube",
+                    "SourceChest": "Input",
+                    "DestinationChest": "Output",
+                    "RequiredTags": [
+                        "id_o_SweetValley.Sugarcube"
+                    ],
+                    "ProducedItems": [
+                        {
+                            "ItemId": "(O)245",
+                            "MinStack": 5
+                        }
+                    ],
+                    "MaxDailyConversions": 100
+                }
+            }
+        },
+        {
+            "LogName": "糖浆加工",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)13",
+                "OutputRules"
+            ],
+            "Entries": {
+                "SweetValley.syrup": {
+                    "Id": "SweetValley.syrup",
+                    "Triggers": [
+                        {
+                            "Id": "SweetValley.syrup_Trigger",
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O)245",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "OutputItem": [
+                        {
+                            "Id": "SweetValley.syrup_Giver",
+                            "ItemId": "(O)SweetValley.syrup",
+                            "MinStack": 1,
+                            "CopyQuality": true
+                        }
+                    ],
+                    "MinutesUntilReady": 50
+                }
+            }
+        },
+        {
+            "LogName": "晾干架加工",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC)SweetValley.Dryingrack": {
+                    "OutputRules": [
+                        { //琥珀
+                            "Id": "SweetValley.Ambersugar",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)SweetValley.syrup"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "ItemId": "(O)SweetValley.Ambersugar",
+                                    "Quality": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 80
+                        },
+                        { //鱼干
+                            "Id": "SweetValley.Driedfish",
+                            "Triggers": [
+                                {
+                                    "RequiredTags": [
+                                        "category_fish"
+                                    ],
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "ItemId": "SweetValley.Driedfish",
+                                    "ObjectInternalName": "{0} SweetValley.Driedfish",
+                                    "ObjectDisplayName": "[LocalizedText Strings/Objects:SweetValley.Driedfish_0 %PRESERVED_DISPLAY_NAME]",
+                                    "PreserveId": "DROP_IN",
+                                    "CopyPrice": true,
+                                    "CustomData": {},
+                                    "PriceModifiers": [
+                                        {
+                                            "Id": "Friedones",
+                                            "Modification": "Multiply",
+                                            "Amount": 6
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 200
+                        }
+                    ],
+                    "WobbleWhileWorking": true,
+                    "ShowNextIndexWhileWorking": true
+                }
+            }
+        },
+        {
+            "LogName": "糖果坩埚加工",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC)SweetValley.Candycrucible": {
+                    "OutputRules": [
+                        { //年糕
+                            "Id": "SweetValley.NewYearcake",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)271",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "ItemId": "(O)SweetValley.NewYearcake",
+                                    "Quality": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 80
+                        },
+                        { //麦芽糖
+                            "Id": "SweetValley.maltose",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)SweetValley.malt"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "ItemId": "(O)SweetValley.maltose",
+                                    "Quality": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 80
+                        },
+                        { //牛轧糖
+                            "Id": "SweetValley.nougat",
+                            "Triggers": [
+                                {
+                                    "RequiredTags": [
+                                        "id_o_408"
+                                    ]
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "Id": "SweetValley.nougat",
+                                    "ItemId": "SweetValley.nougat",
+                                    "PreserveId": "DROP_IN",
+                                    "CopyPrice": true,
+                                    "Quality": 2,
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementTags.1": "id_o_SweetValley.cottoncandy",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:nougat_need}}"
+                                    }
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //罐头
+                            "Id": "SweetValley.can",
+                            "Triggers": [
+                                {
+                                    "RequiredTags": [
+                                        "category_fruits"
+                                    ],
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "ItemId": "SweetValley.can",
+                                    "ObjectInternalName": "{0} SweetValley.can",
+                                    "ObjectDisplayName": "[LocalizedText Strings/Objects:SweetValley.can_0 %PRESERVED_DISPLAY_NAME]",
+                                    "PreserveId": "DROP_IN",
+                                    "CopyPrice": true,
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.CopyColor": "true",
+                                        "selph.ExtraMachineConfig.RequirementTags.1": "id_o_245",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:245_need}}"
+                                    },
+                                    "PriceModifiers": [
+                                        {
+                                            "Id": "Friedones",
+                                            "Modification": "Multiply",
+                                            "Amount": 5
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 300
+                        }
+                    ],
+                    "WobbleWhileWorking": true,
+                    "ShowNextIndexWhileWorking": true
+                }
+            }
+        }
+    ]
+}

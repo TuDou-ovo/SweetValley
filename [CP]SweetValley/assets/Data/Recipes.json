@@ -1,0 +1,117 @@
+{
+    "Changes": [
+        {
+            "LogName": "物品配方",
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "SweetValley.Dryingrack_Recipes": "388 10 334 1//SweetValley.Dryingrack/true/{{i18n:Dryingrack_Recipes.name}}",
+                "SweetValley.Candycrucible_Recipes": "388 2 335 3//SweetValley.Candycrucible/true/{{i18n:Candycrucible_Recipes.name}}",
+                "SweetValley.Hangingtable_Recipes": "388 10 335 2 334 1//SweetValley.Hangingtable/true/{{i18n:Hangingtable_Recipes.name}}",
+                "SweetValley.totem_Recipes": "245 1 SweetValley.butter 1 388 5//SweetValley.totem/true/{{i18n:totem_Recipes.name}}",
+                "SweetValley.Lollipop_Recipes": "SweetValley.butter 1243 2 388 10//SweetValley.Lollipop_fence/true/{{i18n:Lollipop_Recipes.name}}",
+                "SweetValley.Roundlollipop_Recipes": "SweetValley.butter 1 SweetValley.Roundlollipop 2 388 10//SweetValley.Roundlollipop_fence/true/{{i18n:Roundlollipop_Recipes.name}}",
+                "SweetValley.cottoncandy_Recipes": "SweetValley.butter 1 SweetValley.cottoncandy 2 388 10//SweetValley.cottoncandy_fence/true/{{i18n:cottoncandy_Recipes.name}}"
+            }
+        },
+        {
+            "LogName": "料理配方",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "SweetValley.Dragonbeardpastry_Recipes": "SweetValley.syrup 1 SweetValley.CornStarch 1/10 10/SweetValley.Dragonbeardpastry/null/{{i18n:Dragonbeardpastry_Recipes.name}}",
+                "SweetValley.candyapple_Recipes": "SweetValley.syrup 1 613 1/10 10/SweetValley.candyapple/null/{{i18n:candyapple_Recipes.name}}",
+                "SweetValley.Syruppie_Recipes": "SweetValley.syrup 1 SweetValley.butter 1 246 2 176 1/10 10/SweetValley.Syruppie/null/{{i18n:Syruppie_Recipes.name}}",
+                "SweetValley.Sugaronion_Recipes": "SweetValley.syrup 2/10 10/SweetValley.Sugaronion/null/{{i18n:Sugaronion_Recipes.name}}",
+                "SweetValley.Candycane_Recipes": "SweetValley.syrup 1/10 10/SweetValley.Candycane/null/{{i18n:Candycane_Recipes.name}}",
+                "SweetValley.pudding_Recipes": "SweetValley.butter 1 724 1 176 1/10 10/SweetValley.pudding/null/{{i18n:pudding_Recipes.name}}",
+                "SweetValley.butterbeer_Recipes": "346 1 SweetValley.butter 1/10 10/SweetValley.butterbeer/null/{{i18n:butterbeer_Recipes.name}}",
+                "SweetValley.MousseCake_Recipes": "SweetValley.butter 1 176 1 613 1 184 2/10 10/SweetValley.MousseCake/null/{{i18n:MousseCake_Recipes.name}}"
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/CookingRecipeOverrides",
+            "Entries": {
+                "SweetValley.Syruppie": {
+                    "ProductQualifiedId": "{{ModId}}_SweetValley.Syruppie",
+                    "ProductAmount": 1,
+                    "Ingredients": [
+                        {
+                            "Type": "ContextTag",
+                            "Value": "egg_item",
+                            "Amount": 1,
+                            "OverrideText": "{{i18n:egg}}"
+                        },
+                        {
+                            "Type": "Item",
+                            "Value": "(O)246",
+                            "Amount": 2
+                        },
+                        {
+                            "Type": "Item",
+                            "Value": "(O)SweetValley.butter",
+                            "Amount": 1
+                        },
+                        {
+                            "Type": "Item",
+                            "Value": "(O)SweetValley.syrup",
+                            "Amount": 1
+                        }
+                    ]
+                },
+                "SweetValley.pudding": {
+                    "ProductQualifiedId": "{{ModId}}_SweetValley.pudding",
+                    "ProductAmount": 1,
+                    "Ingredients": [
+                        {
+                            "Type": "ContextTag",
+                            "Value": "egg_item",
+                            "Amount": 1,
+                            "OverrideText": "{{i18n:egg}}"
+                        },
+                        {
+                            "Type": "Item",
+                            "Value": "(O)SweetValley.butter",
+                            "Amount": 2
+                        },
+                        {
+                            "Type": "Item",
+                            "Value": "(O)724",
+                            "Amount": 1
+                        }
+                    ]
+                },
+                "SweetValley.MousseCake": {
+                    "ProductQualifiedId": "{{ModId}}_SweetValley.MousseCake",
+                    "ProductAmount": 1,
+                    "Ingredients": [
+                        {
+                            "Type": "ContextTag",
+                            "Value": "egg_item",
+                            "Amount": 1,
+                            "OverrideText": "{{i18n:egg}}"
+                        },
+                        {
+                            "Type": "ContextTag",
+                            "Value": "fruits_item",
+                            "Amount": 1,
+                            "OverrideText": "{{i18n:fruits}}"
+                        },
+                        {
+                            "Type": "ContextTag",
+                            "Value": "Milk_item",
+                            "Amount": 2,
+                            "OverrideText": "{{i18n:Milk}}"
+                        },
+                        {
+                            "Type": "Item",
+                            "Value": "(O)SweetValley.butter",
+                            "Amount": 1
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

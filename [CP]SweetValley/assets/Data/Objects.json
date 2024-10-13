@@ -1,0 +1,1219 @@
+{
+    "Changes": [
+        {
+            "LogName": "物品贴图",
+            "Action": "Load",
+            "Target": "Mods/SweetValley/Objects",
+            "FromFile": "assets/Objects/Objects.png"
+        },
+        {
+            "LogName": "方糖鱼",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.Squaresugarfish": {
+                    "Name": "SweetValley.Squaresugarfish",
+                    "DisplayName": "{{i18n:Squaresugarfish.name}}",
+                    "Description": "{{i18n:Squaresugarfish.de}}",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 300,
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 0,
+                    "Edibility": 20
+                }
+            }
+        },
+        {
+            "LogName": "棒棒糖锤",
+            "Action": "EditData",
+            "Target": "Data/Weapons",
+            "Entries": {
+                "SweetValley.Lollipophammer": {
+                    "Name": "SweetValley.Lollipophammer",
+                    "DisplayName": "{{i18n:Lollipophammer.name}}",
+                    "Description": "{{i18n:Lollipophammer.de}}",
+                    "MinDamage": 150,
+                    "MaxDamage": 200,
+                    "Knockback": 1,
+                    "Speed": 1,
+                    "Precision": 1,
+                    "Defense": 2,
+                    "Type": 2,
+                    "MineBaseLevel": 0,
+                    "MineMinLevel": -1,
+                    "AreaOfEffect": 3,
+                    "CritChance": 0.9,
+                    "CritMultiplier": 3.5,
+                    "CanBeLostOnDeath": true,
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 1
+                }
+            }
+        },
+        {
+            "LogName": "罐头",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.can": {
+                    "Name": "SweetValley.can",
+                    "Category": -26,
+                    "DisplayName": "{{i18n:can.name}}",
+                    "Description": "{{i18n:can.de}}",
+                    "Texture": "Mods/SweetValley/Objects",
+                    "Price": 100,
+                    "SpriteIndex": 2,
+                    "Edibility": 20,
+                    "ContextTags": [
+                        "food_nonvegan",
+                        "can_item"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "鱼干",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.Driedfish": {
+                    "Name": "SweetValley.Driedfish",
+                    "Category": -26,
+                    "DisplayName": "{{i18n:Driedfish.name}}",
+                    "Description": "{{i18n:Driedfish.de}}",
+                    "Texture": "Mods/SweetValley/Objects",
+                    "Price": 100,
+                    "SpriteIndex": 4,
+                    "Edibility": 20,
+                    "ContextTags": [
+                        "food_nonvegan",
+                        "Driedfish_item"
+                    ]
+                }
+            }
+        },
+        //   {
+        //      "LogName": "波板糖围栏",
+        //      "Action": "EditData",
+        //       "Target": "Data/Objects",
+        //       "Entries": {
+        //           "SweetValley.Lollipop_fence": {
+        //               "Name": "SweetValley.Lollipop_fence",
+        //              "Displayname": "{{i18n:Lollipop_fence.name}}",
+        //              "Description": "{{i18n:Lollipop_fence.de}}",
+        //              "Type": "Crafting",
+        //              "Category": -8,
+        //              "Price": 50,
+        ////              "Edibility": -300,
+        //              "ExcludeFromRandomSale": "true",
+        //              "Texture": "Mods/SweetValley/Objects",
+        //             "SpriteIndex": 6
+        //          }
+        //      }
+        //  },
+        //   {
+        //       "LogName": "棒棒糖围栏",
+        //      "Action": "EditData",
+        //      "Target": "Data/Objects",
+        // //      "Entries": {
+        //        "SweetValley.Roundlollipop_fence": {
+        //               "Name": "SweetValley.Roundlollipop_fence",
+        //            "Displayname": "{{i18n:Roundlollipop_fence.name}}",
+        //               "Description": "{{i18n:Roundlollipop_fence.de}}",
+        //            "Type": "Crafting",
+        //               "Category": -8,
+        //           "Price": 50,
+        ////              "Edibility": -300,
+        //            "ExcludeFromRandomSale": "true",
+        //              "Texture": "Mods/SweetValley/Objects",
+        //            "SpriteIndex": 7
+        //          }
+        //      }
+        //  },
+        //  {
+        //     "LogName": "棉花糖围栏",
+        //   "Action": "EditData",
+        //     "Target": "Data/Objects",
+        //   "Entries": {
+        //         "SweetValley.cottoncandy_fence": {
+        //           "Name": "SweetValley.cottoncandy_fence",
+        //             "Displayname": "{{i18n:cottoncandy_fence.name}}",
+        //           "Description": "{{i18n:cottoncandy_fence.de}}",
+        //            "Type": "Crafting",
+        //           "Category": -8,
+        //            "Price": 50,
+        //            "Edibility": -300,
+        //            "ExcludeFromRandomSale": "true",
+        //            "Texture": "Mods/SweetValley/Objects",
+        //            "SpriteIndex": 8
+        //        }
+        //    }
+        // },
+        {
+            "LogName": "甜味谷图腾",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.totem": {
+                    "Name": "SweetValley.totem",
+                    "DisplayName": "{{i18n:totem.name}}",
+                    "Description": "{{i18n:totem.de}}",
+                    "Type": "Crafting",
+                    "Category": 0,
+                    "Price": 120,
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 9,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "Buff": null,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ContextTags": [
+                        "color_brown",
+                        "not_placeable",
+                        "totem_item"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "波板糖种子",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.Lollipop_seed": {
+                    "Name": "SweetValley.Lollipop_seed",
+                    "Displayname": "{{i18n:Lollipop_seed.name}}",
+                    "Description": "{{i18n:Lollipop_seed.de}}",
+                    "Type": "seed",
+                    "Category": -74,
+                    "Price": 100,
+                    "Edibility": -300,
+                    "ExcludeFromRandomSale": "true",
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 10
+                }
+            }
+        },
+        {
+            "LogName": "棒棒糖种子",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.Roundlollipop_seed": {
+                    "Name": "SweetValley.Roundlollipop_seed",
+                    "Displayname": "{{i18n:Roundlollipop_seed.name}}",
+                    "Description": "{{i18n:Roundlollipop_seed.de}}",
+                    "Type": "seed",
+                    "Category": -74,
+                    "Price": 100,
+                    "Edibility": -300,
+                    "ExcludeFromRandomSale": "true",
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 11
+                }
+            }
+        },
+        {
+            "LogName": "冬瓜种子",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.waxgourd_seed": {
+                    "Name": "SweetValley.waxgourd_seed",
+                    "Displayname": "{{i18n:waxgourd_seed.name}}",
+                    "Description": "{{i18n:waxgourd_seed.de}}",
+                    "Type": "seed",
+                    "Category": -74,
+                    "Price": 50,
+                    "Edibility": -300,
+                    "ExcludeFromRandomSale": "true",
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 12
+                }
+            }
+        },
+        {
+            "LogName": "棉花糖树苗",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.cottoncandy_seed": {
+                    "Name": "SweetValley.cottoncandy_seed",
+                    "Displayname": "{{i18n:cottoncandy_seed.name}}",
+                    "Description": "{{i18n:cottoncandy_seed.de}}",
+                    "Type": "seed",
+                    "Category": -74,
+                    "Price": 500,
+                    "Edibility": -300,
+                    "ExcludeFromRandomSale": "true",
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 13
+                }
+            }
+        },
+        {
+            "LogName": "柠檬树苗",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.lemon_seed": {
+                    "Name": "SweetValley.lemon_seed",
+                    "Displayname": "{{i18n:lemon_seed.name}}",
+                    "Description": "{{i18n:lemon_seed.de}}",
+                    "Type": "seed",
+                    "Category": -74,
+                    "Price": 3000,
+                    "Edibility": -300,
+                    "ExcludeFromRandomSale": "true",
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 14
+                }
+            }
+        },
+        {
+            "LogName": "柚子树苗",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.pomelo_seed": {
+                    "Name": "SweetValley.pomelo_seed",
+                    "Displayname": "{{i18n:pomelo_seed.name}}",
+                    "Description": "{{i18n:pomelo_seed.de}}",
+                    "Type": "seed",
+                    "Category": -74,
+                    "Price": 3000,
+                    "Edibility": -300,
+                    "ExcludeFromRandomSale": "true",
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 15
+                }
+            }
+        },
+        {
+            "LogName": "棒棒糖",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.Roundlollipop": {
+                    "Name": "SweetValley.Roundlollipop",
+                    "Displayname": "{{i18n:Roundlollipop.name}}",
+                    "Description": "{{i18n:Roundlollipop.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 200,
+                    "Edibility": 50,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1
+                            },
+                            "ContextTags": [
+                                "sugar_item"
+                            ]
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 16
+                }
+            }
+        },
+        {
+            "LogName": "棉花糖",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.cottoncandy": {
+                    "Name": "SweetValley.cottoncandy",
+                    "Displayname": "{{i18n:cottoncandy.name}}",
+                    "Description": "{{i18n:cottoncandy.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 100,
+                    "Edibility": 50,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1
+                            },
+                            "ContextTags": [
+                                "sugar_item"
+                            ]
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 18
+                }
+            }
+        },
+        {
+            "LogName": "冬瓜",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.waxgourd": {
+                    "Name": "SweetValley.waxgourd",
+                    "Displayname": "{{i18n:waxgourd.name}}",
+                    "Description": "{{i18n:waxgourd.de}}",
+                    "Type": "Basic",
+                    "Category": -75,
+                    "Price": 80,
+                    "Edibility": 20,
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 19,
+                    "ContextTags": [
+                        "color_green"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "柠檬",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.lemon": {
+                    "Name": "SweetValley.lemon",
+                    "Displayname": "{{i18n:lemon.name}}",
+                    "Description": "{{i18n:lemon.de}}",
+                    "Type": "Basic",
+                    "Category": -79,
+                    "Price": 120,
+                    "Edibility": 10,
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 20,
+                    "ContextTags": [
+                        "color_yellow"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "柚子",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.pomelo": {
+                    "Name": "SweetValley.pomelo",
+                    "Displayname": "{{i18n:pomelo.name}}",
+                    "Description": "{{i18n:pomelo.de}}",
+                    "Type": "Basic",
+                    "Category": -79,
+                    "Price": 120,
+                    "Edibility": 20,
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 21,
+                    "ContextTags": [
+                        "color_yellow"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "黄油",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.butter": {
+                    "Name": "SweetValley.butter",
+                    "Displayname": "{{i18n:butter.name}}",
+                    "Description": "{{i18n:butter.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 50,
+                    "Edibility": 20,
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 22,
+                    "ContextTags": [
+                        "color_yellow",
+                        "food_nonvegan",
+                        "butter_item"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "方糖",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.Sugarcube": {
+                    "Name": "SweetValley.Sugarcube",
+                    "Displayname": "{{i18n:Sugarcube.name}}",
+                    "Description": "{{i18n:Sugarcube.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 250,
+                    "Edibility": 25,
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 23,
+                    "ContextTags": [
+                        "color_white",
+                        "sugar_item"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "玉米淀粉",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.CornStarch": {
+                    "Name": "SweetValley.CornStarch",
+                    "Displayname": "{{i18n:CornStarch.name}}",
+                    "Description": "{{i18n:CornStarch.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 30,
+                    "Edibility": -300,
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 24,
+                    "ContextTags": [
+                        "color_white"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "糖浆",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.syrup": {
+                    "Name": "SweetValley.syrup",
+                    "Displayname": "{{i18n:syrup.name}}",
+                    "Description": "{{i18n:syrup.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 60,
+                    "Edibility": 5,
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 25,
+                    "ContextTags": [
+                        "color_yellow",
+                        "sugar_item"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "麦芽",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.malt": {
+                    "Name": "SweetValley.malt",
+                    "Displayname": "{{i18n:malt.name}}",
+                    "Description": "{{i18n:malt.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 20,
+                    "Edibility": -300,
+                    "ExcludeFromRandomSale": "true",
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 26
+                }
+            }
+        },
+        {
+            "LogName": "琥珀糖",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.Ambersugar": {
+                    "Name": "SweetValley.Ambersugar",
+                    "Displayname": "{{i18n:Ambersugar.name}}",
+                    "Description": "{{i18n:Ambersugar.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 100,
+                    "Edibility": 50,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1
+                            },
+                            "ContextTags": [
+                                "sugar_item"
+                            ]
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 27
+                }
+            }
+        },
+        {
+            "LogName": "柠檬雪宝糖",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.lemondrops": {
+                    "Name": "SweetValley.lemondrops",
+                    "Displayname": "{{i18n:lemondrops.name}}",
+                    "Description": "{{i18n:lemondrops.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 200,
+                    "Edibility": 50,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1
+                            },
+                            "ContextTags": [
+                                "color_yellow",
+                                "sugar_item"
+                            ]
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 28
+                }
+            }
+        },
+        {
+            "LogName": "柚子糖",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.Yuzucandy": {
+                    "Name": "SweetValley.Yuzucandy",
+                    "Displayname": "{{i18n:Yuzucandy.name}}",
+                    "Description": "{{i18n:Yuzucandy.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 180,
+                    "Edibility": 50,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1
+                            },
+                            "ContextTags": [
+                                "color_pink",
+                                "sugar_item"
+                            ]
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 29
+                }
+            }
+        },
+        {
+            "LogName": "话梅糖",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.SugarPlum": {
+                    "Name": "SweetValley.SugarPlum",
+                    "Displayname": "{{i18n:SugarPlum.name}}",
+                    "Description": "{{i18n:SugarPlum.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 200,
+                    "Edibility": 50,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1
+                            },
+                            "ContextTags": [
+                                "color_yellow",
+                                "sugar_item"
+                            ]
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 30
+                }
+            }
+        },
+        {
+            "LogName": "冬瓜糖",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.candiedmelon": {
+                    "Name": "SweetValley.candiedmelon",
+                    "Displayname": "{{i18n:candiedmelon.name}}",
+                    "Description": "{{i18n:candiedmelon.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 210,
+                    "Edibility": 50,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1
+                            },
+                            "ContextTags": [
+                                "sugar_item"
+                            ]
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 31
+                }
+            }
+        },
+        {
+            "LogName": "椰子糖",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.coconutcandy": {
+                    "Name": "SweetValley.coconutcandy",
+                    "Displayname": "{{i18n:coconutcandy.name}}",
+                    "Description": "{{i18n:coconutcandy.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 240,
+                    "Edibility": 50,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1
+                            },
+                            "ContextTags": [
+                                "sugar_item"
+                            ]
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 32
+                }
+            }
+        },
+        {
+            "LogName": "姜片糖",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.CandiedGinger": {
+                    "Name": "SweetValley.CandiedGinger",
+                    "Displayname": "{{i18n:CandiedGinger.name}}",
+                    "Description": "{{i18n:CandiedGinger.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 350,
+                    "Edibility": 50,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1
+                            },
+                            "ContextTags": [
+                                "sugar_item"
+                            ]
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 33
+                }
+            }
+        },
+        {
+            "LogName": "酒心糖",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.JiuxinSugar": {
+                    "Name": "SweetValley.JiuxinSugar",
+                    "Displayname": "{{i18n:JiuxinSugar.name}}",
+                    "Description": "{{i18n:JiuxinSugar.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 300,
+                    "Edibility": 50,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "Speed": -1,
+                                "LuckLevel": 1
+                            },
+                            "ContextTags": [
+                                "sugar_item"
+                            ]
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 34
+                }
+            }
+        },
+        {
+            "LogName": "奶糖",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.toffee": {
+                    "Name": "SweetValley.toffee",
+                    "Displayname": "{{i18n:toffee.name}}",
+                    "Description": "{{i18n:toffee.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 230,
+                    "Edibility": 50,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1
+                            },
+                            "ContextTags": [
+                                "sugar_item"
+                            ]
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 35
+                }
+            }
+        },
+        {
+            "LogName": "牛轧糖",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.nougat": {
+                    "Name": "SweetValley.nougat",
+                    "Displayname": "{{i18n:nougat.name}}",
+                    "Description": "{{i18n:nougat.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 240,
+                    "Edibility": 30,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 220,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1
+                            },
+                            "ContextTags": [
+                                "sugar_item"
+                            ]
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 36
+                }
+            }
+        },
+        {
+            "LogName": "年糕",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.NewYearcake": {
+                    "Name": "SweetValley.NewYearcake",
+                    "Displayname": "{{i18n:NewYearcake.name}}",
+                    "Description": "{{i18n:NewYearcake.de}}",
+                    "Type": "Basic",
+                    "Category": -7,
+                    "Price": 60,
+                    "Edibility": 25,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 0,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1
+                            },
+                            "ContextTags": [
+                                "sugar_item"
+                            ]
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 37
+                }
+            }
+        },
+        {
+            "LogName": "麦芽糖",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.maltose": {
+                    "Name": "SweetValley.maltose",
+                    "Displayname": "{{i18n:maltose.name}}",
+                    "Description": "{{i18n:maltose.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 50,
+                    "Edibility": 25,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 100,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1
+                            },
+                            "ContextTags": [
+                                "sugar_item"
+                            ]
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 38
+                }
+            }
+        },
+        {
+            "LogName": "龙须酥",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.Dragonbeardpastry": {
+                    "Name": "SweetValley.Dragonbeardpastry",
+                    "Displayname": "{{i18n:Dragonbeardpastry.name}}",
+                    "Description": "{{i18n:Dragonbeardpastry.de}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 330,
+                    "Edibility": 20,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1,
+                                "MaxStamina": 1
+                            },
+                            "ContextTags": [
+                                "sugar_item"
+                            ]
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 39
+                }
+            }
+        },
+        {
+            "LogName": "糖苹果",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.candyapple": {
+                    "Name": "SweetValley.candyapple",
+                    "Displayname": "{{i18n:candyapple.name}}",
+                    "Description": "{{i18n:candyapple.de}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 350,
+                    "Edibility": 25,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 250,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "ForagingLevel": 1,
+                                "MaxStamina": 20
+                            },
+                            "ContextTags": [
+                                "sugar_item"
+                            ]
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 40
+                }
+            }
+        },
+        {
+            "LogName": "糖浆馅饼",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.Syruppie": {
+                    "Name": "SweetValley.Syruppie",
+                    "Displayname": "{{i18n:Syruppie.name}}",
+                    "Description": "{{i18n:Syruppie.de}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 380,
+                    "Edibility": 30,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 2,
+                                "ForagingLevel": 1
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 41
+                }
+            }
+        },
+        {
+            "LogName": "糖葱",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.Sugaronion": {
+                    "Name": "SweetValley.Sugaronion",
+                    "Displayname": "{{i18n:Sugaronion.name}}",
+                    "Description": "{{i18n:Sugaronion.de}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 180,
+                    "Edibility": 15,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 1,
+                                "LuckLevel": 1
+                            },
+                            "ContextTags": [
+                                "sugar_item"
+                            ]
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 42
+                }
+            }
+        },
+        {
+            "LogName": "拐杖糖",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.Candycane": {
+                    "Name": "SweetValley.Candycane",
+                    "Displayname": "{{i18n:Candycane.name}}",
+                    "Description": "{{i18n:Candycane.de}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 260,
+                    "Edibility": 15,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1,
+                                "Speed": 1
+                            },
+                            "ContextTags": [
+                                "sugar_item"
+                            ]
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 43
+                }
+            }
+        },
+        {
+            "LogName": "布丁",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.pudding": {
+                    "Name": "SweetValley.pudding",
+                    "Displayname": "{{i18n:pudding.name}}",
+                    "Description": "{{i18n:pudding.de}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 420,
+                    "Edibility": 25,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FishingLevel": 2,
+                                "Speed": 1
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 44
+                }
+            }
+        },
+        {
+            "LogName": "黄油啤酒",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.butterbeer": {
+                    "Name": "SweetValley.butterbeer",
+                    "Displayname": "{{i18n:butterbeer.name}}",
+                    "Description": "{{i18n:butterbeer.de}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 350,
+                    "Edibility": 20,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 0,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1,
+                                "MaxStamina": 20,
+                                "Speed": -1
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 45
+                }
+            }
+        },
+        {
+            "LogName": "慕斯蛋糕",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.MousseCake": {
+                    "Name": "SweetValley.MousseCake",
+                    "Displayname": "{{i18n:MousseCake.name}}",
+                    "Description": "{{i18n:MousseCake.de}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 430,
+                    "Edibility": 30,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 2,
+                                "Speed": 1
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 46
+                }
+            }
+        }
+    ]
+}

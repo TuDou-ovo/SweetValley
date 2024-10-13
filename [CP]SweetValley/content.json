@@ -1,0 +1,90 @@
+{
+  "Format": "2.0.0",
+  "CustomLocations": [
+    {
+      "LogName": "加载地图-甜味谷",
+      "Name": "Custom_SweetValley.Sweet",
+      "FromMapFile": "assets/Map/Sweet.tmx"
+    }
+  ],
+  "Changes": [
+    {
+      "LogName": "CJB",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/WarpSections",
+      "Entries": {
+        "{{ModId}}_SweetValley": {
+          "Id": "{{ModId}}_SweetValley",
+          "DisplayName": "{{i18n:SweetValley}}"
+        }
+      }
+    },
+    {
+      "LogName": "CJB传送点",
+      "Action": "EditData",
+      "Target": "Mods/CJBok.CheatsMenu/Warps",
+      "Entries": {
+        "{{ModId}}_Sweet": {
+          "Id": "{{ModId}}_Sweet",
+          "SectionId": "{{ModId}}_SweetValley",
+          "DisplayName": "{{i18n:cjb_Sweet}}",
+          "Location": "Custom_SweetValley.Sweet",
+          "Tile": "0, 0"
+        }
+      }
+    },
+    {
+      "LogName": "信件",
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "spring_1_1": "{{i18n:spring_1_1}}"
+      }
+    },
+    {
+      "LogName": "作物",
+      "Action": "Include",
+      "FromFile": "assets/Data/Crops.json"
+    },
+    {
+      "LogName": "鱼",
+      "Action": "Include",
+      "FromFile": "assets/Data/FishData.json"
+    },
+    {
+      "LogName": "机器",
+      "Action": "Include",
+      "FromFile": "assets/Data/Machine.json"
+    },
+    {
+      "LogName": "地图",
+      "Action": "Include",
+      "FromFile": "assets/Data/Map.json"
+    },
+    {
+      "LogName": "物品",
+      "Action": "Include",
+      "FromFile": "assets/Data/Objects.json"
+    },
+    {
+      "LogName": "物品数据",
+      "Action": "Include",
+      "FromFile": "assets/Data/ObjectsData.json"
+    },
+    {
+      "LogName": "配方",
+      "Action": "Include",
+      "FromFile": "assets/Data/Recipes.json"
+    },
+    {
+      "LogName": "商店",
+      "Action": "Include",
+      "FromFile": "assets/Data/Shop.json"
+    },
+    {
+      "LogName": "树",
+      "Action": "Include",
+      "FromFile": "assets/Data/Trees.json"
+    }
+  ]
+}

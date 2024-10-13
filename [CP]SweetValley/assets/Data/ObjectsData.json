@@ -1,0 +1,87 @@
+{
+    "Changes": [
+        // {
+        //      "LogName": "围栏贴图",
+        //       "Action": "Load",
+        //       "Target": "Mods/SweetValley/Lollipop_fence,Mods/SweetValley/Roundlollipop_fence,Mods/SweetValley/cottoncandy_fence",
+        //       "FromFile": "assets/Objects/{{TargetWithoutPath}}.png"
+        //   },
+        {
+            "LogName": "项目词条",
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+                "SweetValley.can_0": "{{i18n:can.0}}",
+                "SweetValley.Driedfish_0": "{{i18n:Driedfish.0}}"
+            }
+        },
+        {
+            "LogName": "图腾传送点",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Entries": {
+                "SweetValley.totem": {
+                    "TotemWarp": {
+                        "Location": "Custom_SweetValley.Sweet",
+                        "Position": "0, 0"
+                    }
+                }
+            }
+        },
+        //    {
+        //         "LogName": "围栏数据",
+        //        "Action": "EditData",
+        //        "Target": "Data/Fences",
+        //        "Entries": {
+        //         "SweetValley.Lollipop_fence": {
+        //              "Health": 160,
+        //             "RepairHealthAdjustmentMinimum": -6.0,
+        //             "RepairHealthAdjustmentMaximum": 12.0,
+        //             "Texture": "assets/Objects/Lollipop_fence.png",
+        //             "PlacementSound": "grassyStep",
+        //             "RemovalSound": "grassyStep",
+        //            "RemovalToolIds": [],
+        //            "RemovalToolTypes": [
+        //                "StardewValley.Tools.Axe"
+        //          ],
+        //          "RemovalDebrisType": 12,
+        //          "HeldObjectDrawOffset": "0, -20",
+        //          "LeftEndHeldObjectDrawX": -1.0,
+        //          "RightEndHeldObjectDrawX": 0.0
+        //      },
+        //        "SweetValley.Roundlollipop_fence": {
+        //           "Health": 160,
+        //           "RepairHealthAdjustmentMinimum": -6.0,
+        ////           "RepairHealthAdjustmentMaximum": 12.0,
+        //          "Texture": "assets/Objects/Roundlollipop_fence.png",
+        //           "PlacementSound": "grassyStep",
+        //          "RemovalSound": "grassyStep",
+        //         "RemovalToolIds": [],
+        //         "RemovalToolTypes": [
+        //             "StardewValley.Tools.Axe"
+        //         ],
+        //         "RemovalDebrisType": 12,
+        //         "HeldObjectDrawOffset": "0, -20",
+        //         "LeftEndHeldObjectDrawX": -1.0,
+        //         "RightEndHeldObjectDrawX": 0.0
+        //     },
+        //     "SweetValley.cottoncandy_fence": {
+        //        "Health": 160,
+        //         "RepairHealthAdjustmentMinimum": -6.0,
+        //        "RepairHealthAdjustmentMaximum": 12.0,
+        //        "Texture": "assets/Objects/cottoncandy_fence.png",
+        //        "PlacementSound": "grassyStep",
+        //        "RemovalSound": "grassyStep",
+        //        "RemovalToolIds": [],
+        //        "RemovalToolTypes": [
+        //            "StardewValley.Tools.Axe"
+        //       ],
+        //       "RemovalDebrisType": 12,
+        //       "HeldObjectDrawOffset": "0, -20",
+        //       "LeftEndHeldObjectDrawX": -1.0,
+        //       "RightEndHeldObjectDrawX": 0.0
+        //    }
+        //  }
+        //  }
+    ]
+}

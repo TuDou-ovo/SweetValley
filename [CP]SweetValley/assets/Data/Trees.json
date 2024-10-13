@@ -1,0 +1,167 @@
+{
+    "Changes": [
+        {
+            "LogName": "树贴图",
+            "Action": "Load",
+            "Target": "Mods/SweetValley/Spring.cottoncandy_Tree,Mods/SweetValley/Summer.cottoncandy_Tree,Mods/SweetValley/Fall.cottoncandy_Tree,Mods/SweetValley/Winter.cottoncandy_Tree",
+            "FromFile": "assets/Objects/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "果树贴图",
+            "Action": "Load",
+            "Target": "Mods/SweetValley/FruitTrees",
+            "FromFile": "assets/Objects/FruitTrees.png"
+        },
+        {
+            "LogName": "棉花糖树",
+            "Action": "EditData",
+            "Target": "Data/WildTrees",
+            "Entries": {
+                "SweetValley.cottoncandy_Tree": {
+                    "Textures": [
+                        {
+                            "Condition": null,
+                            "Season": "Spring",
+                            "Texture": "Mods/SweetValley/Spring.cottoncandy_Tree"
+                        },
+                        {
+                            "Condition": null,
+                            "Season": "Summer",
+                            "Texture": "Mods/SweetValley/Summer.cottoncandy_Tree"
+                        },
+                        {
+                            "Condition": null,
+                            "Season": "Fall",
+                            "Texture": "Mods/SweetValley/Fall.cottoncandy_Tree"
+                        },
+                        {
+                            "Condition": null,
+                            "Season": "Winter",
+                            "Texture": "Mods/SweetValley/Winter.cottoncandy_Tree"
+                        }
+                    ],
+                    "SeedItemId": "SweetValley.cottoncandy_seed",
+                    "SeedPlantable": true,
+                    "GrowthChance": 0.2,
+                    "FertilizedGrowthChance": 1.0,
+                    "SeedSpreadChance": 0.15,
+                    "SeedOnShakeChance": 0.05,
+                    "SeedOnChopChance": 0.75,
+                    "DropWoodOnChop": true,
+                    "DropHardwoodOnLumberChop": true,
+                    "IsLeafy": true,
+                    "IsLeafyInWinter": false,
+                    "IsLeafyInFall": true,
+                    "PlantableLocationRules": null,
+                    "GrowsInWinter": false,
+                    "IsStumpDuringWinter": false,
+                    "AllowWoodpeckers": false,
+                    "UseAlternateSpriteWhenNotShaken": false,
+                    "UseAlternateSpriteWhenSeedReady": false,
+                    "DebrisColor": null,
+                    "SeedDropItems": null,
+                    "ChopItems": [
+                        {
+                            "MinSize": null,
+                            "MaxSize": null,
+                            "ForStump": true,
+                            "Season": null,
+                            "Chance": 1.0,
+                            "Condition": null,
+                            "Id": "(O)92",
+                            "ItemId": "(O)92",
+                            "RandomItemId": null,
+                            "MaxItems": null,
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                            "ModData": null,
+                            "PerItemCondition": null
+                        }
+                    ],
+                    "TapItems": [
+                        {
+                            "PreviousItemId": null,
+                            "DaysUntilReady": 3,
+                            "DaysUntilReadyModifiers": null,
+                            "DaysUntilReadyModifierMode": "Stack",
+                            "Season": null,
+                            "Chance": 1.0,
+                            "Condition": null,
+                            "Id": "Default",
+                            "ItemId": "SweetValley.cottoncandy",
+                            "RandomItemId": null,
+                            "MaxItems": null,
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                            "ModData": null,
+                            "PerItemCondition": null
+                        }
+                    ],
+                    "ShakeItems": null,
+                    "CustomFields": null,
+                    "GrowsMoss": false
+                }
+            }
+        },
+        {
+            "LogName": "柠檬果树",
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "SweetValley.lemon_seed": {
+                    "DisplayName": "SweetValley.lemon_seed",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ID": "Default",
+                            "ItemID": "(O)SweetValley.lemon"
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/FruitTrees",
+                    "TextureSpriteRow": 1
+                }
+            }
+        },
+        {
+            "LogName": "柚子果树",
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "SweetValley.pomelo_seed": {
+                    "DisplayName": "SweetValley.pomelo_seed",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ID": "Default",
+                            "ItemID": "(O)SweetValley.pomelo"
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/FruitTrees",
+                    "TextureSpriteRow": 0
+                }
+            }
+        }
+    ]
+}

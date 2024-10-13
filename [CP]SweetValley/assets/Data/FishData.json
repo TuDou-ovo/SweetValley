@@ -1,0 +1,81 @@
+{
+    "Changes": [
+        {
+            "LogName": "鱼缸贴图",
+            "Action": "Load",
+            "Target": "Mods/SweetValley/AquariumFish",
+            "FromFile": "assets/Objects/AquariumFish.png"
+        },
+        {
+            "LogName": "方糖鱼鱼缸数据",
+            "Action": "EditData",
+            "Target": "Data/AquariumFish",
+            "Entries": {
+                "SweetValley.Squaresugarfish": "0/crawl/////Mods\\SweetValley\\AquariumFish"
+            }
+        },
+        {
+            "LogName": "方糖鱼钓鱼数据",
+            "Action": "EditData",
+            "Target": "Data/Fish",
+            "Entries": {
+                "SweetValley.Squaresugarfish": "SweetValley.Squaresugarfish/20/smooth/5/50/600 1200/spring summer fall winter/both/690 .4 685 .1/4/.3/.5/0"
+            }
+        },
+        {
+            "LogName": "方糖鱼鱼塘",
+            "Action": "EditData",
+            "Target": "Data/FishPondData",
+            "Entries": {
+                "SweetValley.Squaresugarfish": {
+                    "RequiredTags": [
+                        "item_SweetValley.Squaresugarfish"
+                    ],
+                    "Precedence": 0,
+                    "SpawnTime": -1,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 0.50,
+                            "ItemID": "SweetValley.Squaresugarfish",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.50,
+                            "ItemID": "SweetValley.Sugarcube",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 3
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 0.50,
+                            "ItemID": 245,
+                            "MinQuantity": 3,
+                            "MaxQuantity": 8
+                        },
+                        {
+                            "RequiredPopulation": 0,
+                            "Chance": 0.50,
+                            "ItemID": 245,
+                            "MinQuantity": 1,
+                            "MaxQuantity": 5
+                        }
+                    ],
+                    "PopulationGates": {
+                        "2": [
+                            "245 5"
+                        ],
+                        "4": [
+                            "724 2"
+                        ],
+                        "8": [
+                            "340 3"
+                        ]
+                    }
+                }
+            }
+        }
+    ]
+}

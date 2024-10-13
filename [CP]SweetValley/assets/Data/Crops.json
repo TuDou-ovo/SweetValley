@@ -1,0 +1,88 @@
+{
+    "Changes": [
+        {
+            "LogName": "作物贴图",
+            "Action": "Load",
+            "Target": "Mods/SweetValley/Crops",
+            "FromFile": "assets/Objects/Crops.png"
+        },
+        {
+            "LogName": "波板糖作物",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "SweetValley.Lollipop_seed": {
+                    "DaysInPhase": [
+                        3,
+                        4,
+                        4,
+                        4
+                    ],
+                    "Seasons": [
+                        "spring",
+                        "fall",
+                        "winter"
+                    ],
+                    "RegrowDays": -1,
+                    "IsRaised": false,
+                    "HarvestItemID": "243",
+                    "HarvestMethod": "0",
+                    "Texture": "Mods/SweetValley/Crops",
+                    "SpriteIndex": 0
+                }
+            }
+        },
+        {
+            "LogName": "棒棒糖作物",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "SweetValley.Roundlollipop_seed": {
+                    "DaysInPhase": [
+                        3,
+                        4,
+                        4,
+                        4
+                    ],
+                    "Seasons": [
+                        "spring",
+                        "fall",
+                        "winter"
+                    ],
+                    "RegrowDays": -1,
+                    "IsRaised": false,
+                    "HarvestItemID": "SweetValley.Roundlollipop",
+                    "HarvestMethod": "0",
+                    "Texture": "Mods/SweetValley/Crops",
+                    "SpriteIndex": 1
+                }
+            }
+        },
+        {
+            "LogName": "冬瓜作物",
+            "Action": "EditData",
+            "Target": "Data/Crops",
+            "Entries": {
+                "SweetValley.Roundlollipop_seed": {
+                    "DaysInPhase": [
+                        3,
+                        4,
+                        4,
+                        4
+                    ],
+                    "Seasons": [
+                        "summer",
+                        "fall"
+                    ],
+                    "RegrowDays": 2,
+                    "IsRaised": false,
+                    "HarvestItemID": "SweetValley.Roundlollipop",
+                    "HarvestMethod": "1",
+                    "Texture": "Mods/SweetValley/Crops",
+                    "SpriteIndex": 2
+                }
+            }
+        }
+       
+    ]
+}
