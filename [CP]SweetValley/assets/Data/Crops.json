@@ -1,12 +1,6 @@
 {
     "Changes": [
         {
-            "LogName": "作物贴图",
-            "Action": "Load",
-            "Target": "Mods/SweetValley/Crops",
-            "FromFile": "assets/Objects/Crops.png"
-        },
-        {
             "LogName": "波板糖作物",
             "Action": "EditData",
             "Target": "Data/Crops",

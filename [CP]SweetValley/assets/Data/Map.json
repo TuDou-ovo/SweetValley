@@ -11,10 +11,7 @@
                 "Width": 1,
                 "Height": 2
             },
-            "Update": "OnLocationChange",
-            "When": {
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
-            }
+            "Update": "OnLocationChange"
         },
         {
             "LogName": "甜味谷传送点",
@@ -24,39 +21,7 @@
                 "22 53 Woods 15 10",
                 "23 53 Woods 15 10",
                 "24 53 Woods 15 10"
-            ],
-            "When": {
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
-            }
-        },
-        {
-            "LogName": "替换甜味谷入口",
-            "Action": "EditMap",
-            "Target": "Maps/Woods",
-            "FromFile": "assets/Map/SweetentranceSVE.tmx",
-            "ToArea": {
-                "X": 66,
-                "Y": 6,
-                "Width": 1,
-                "Height": 2
-            },
-            "Update": "OnLocationChange",
-            "When": {
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
-            }
-        },
-        {
-            "LogName": "甜味谷传送点",
-            "Action": "EditMap",
-            "Target": "Maps/Custom_SweetValley.Sweet",
-            "AddWarps": [
-                "22 53 Woods 66 8",
-                "23 53 Woods 66 8",
-                "24 53 Woods 66 8"
-            ],
-            "When": {
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
-            }
+            ]
         },
         {
             "LogName": "甜味谷钓鱼点",

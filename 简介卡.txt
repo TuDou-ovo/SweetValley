@@ -9,6 +9,35 @@ Tu_Dou
 添加了以糖果为主题的物品
 Added candy themed items
 
+1.1.0
+
+修复了配方问题
+Fixed the formula issue
+
+增加了SVE联动物品 请在主页末尾查看
+Added SVE linkage items. Please check at the end of the homepage
+
+1.2.0
+
+增加了英文翻译
+Added English translation
+
+扩展了和其他模组的兼容性 请在主页末尾查看
+Expanded compatibility with other modules. Please check at the end of the homepage
+
+1.3.0
+修复了美化冲突问题
+Fixed the issue of beautification conflicts
+让小溪的颜色看起来正常了一点点
+Make the color of the stream look a little normal
+武器现在不会掉落了
+The weapon won't fall now
+图腾能制作了
+Totems can be made now
+
+1.4.0
+文本优化
+
 
 这是一个有很多糖果的模组·This is a mod with many candies
 
@@ -120,3 +149,16 @@ https://i.ibb.co/4PdtX6q/Machine2.png
 ﻿兼容性·compatibility
 
 CJB传送点·CJB
+
+SVE 
+冰糖雪梨 新菜品
+柿饼 加工
+
+聚宝盆机器 CornucopiaArtisanMachines
+玉米淀粉 替换
+Corn starch replacement
+
+Wildflour的工坊商品 觅食品 wildflour.ateliercrops
+棉花糖 柠檬 可选使用哪个模组的物品
+Cotton candy and lemon are optional
+

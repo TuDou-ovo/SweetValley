@@ -1,12 +1,6 @@
 {
     "Changes": [
         {
-            "LogName": "机器贴图",
-            "Action": "Load",
-            "Target": "Mods/SweetValley/Animation",
-            "FromFile": "assets/Objects/Animation.png"
-        },
-        {
             "LogName": "晾干架",
             "Action": "EditData",
             "Target": "Data/BigCraftables",
@@ -49,21 +43,6 @@
                 "ItemConversions"
             ],
             "Entries": {
-                "SweetValley.CornStarch": { //淀粉
-                    "Id": "SweetValley.CornStarch",
-                    "SourceChest": "Input",
-                    "DestinationChest": "Output",
-                    "RequiredTags": [
-                        "id_o_270"
-                    ],
-                    "ProducedItems": [
-                        {
-                            "ItemId": "(O)SweetValley.CornStarch",
-                            "MinStack": 2
-                        }
-                    ],
-                    "MaxDailyConversions": 80
-                },
                 "417": { //甜美
                     "Id": "417",
                     "SourceChest": "Input",
@@ -467,6 +446,11 @@
                     "WobbleWhileWorking": true,
                     "ShowNextIndexWhileWorking": true
                 }
+            },
+            "When": {
+                "lemon": "SweetValley",
+                "HasMod |contains=wildflour.ateliercrops": false,
+                "cottoncandy": "SweetValley"
             }
         }
     ]

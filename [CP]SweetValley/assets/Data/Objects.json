@@ -1,12 +1,6 @@
 {
     "Changes": [
         {
-            "LogName": "物品贴图",
-            "Action": "Load",
-            "Target": "Mods/SweetValley/Objects",
-            "FromFile": "assets/Objects/Objects.png"
-        },
-        {
             "LogName": "方糖鱼",
             "Action": "EditData",
             "Target": "Data/Objects",
@@ -45,7 +39,7 @@
                     "AreaOfEffect": 3,
                     "CritChance": 0.9,
                     "CritMultiplier": 3.5,
-                    "CanBeLostOnDeath": true,
+                    "CanBeLostOnDeath": false,
                     "Texture": "Mods/SweetValley/Objects",
                     "SpriteIndex": 1
                 }
@@ -236,44 +230,6 @@
             }
         },
         {
-            "LogName": "棉花糖树苗",
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": {
-                "SweetValley.cottoncandy_seed": {
-                    "Name": "SweetValley.cottoncandy_seed",
-                    "Displayname": "{{i18n:cottoncandy_seed.name}}",
-                    "Description": "{{i18n:cottoncandy_seed.de}}",
-                    "Type": "seed",
-                    "Category": -74,
-                    "Price": 500,
-                    "Edibility": -300,
-                    "ExcludeFromRandomSale": "true",
-                    "Texture": "Mods/SweetValley/Objects",
-                    "SpriteIndex": 13
-                }
-            }
-        },
-        {
-            "LogName": "柠檬树苗",
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": {
-                "SweetValley.lemon_seed": {
-                    "Name": "SweetValley.lemon_seed",
-                    "Displayname": "{{i18n:lemon_seed.name}}",
-                    "Description": "{{i18n:lemon_seed.de}}",
-                    "Type": "seed",
-                    "Category": -74,
-                    "Price": 3000,
-                    "Edibility": -300,
-                    "ExcludeFromRandomSale": "true",
-                    "Texture": "Mods/SweetValley/Objects",
-                    "SpriteIndex": 14
-                }
-            }
-        },
-        {
             "LogName": "柚子树苗",
             "Action": "EditData",
             "Target": "Data/Objects",
@@ -327,40 +283,6 @@
             }
         },
         {
-            "LogName": "棉花糖",
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": {
-                "SweetValley.cottoncandy": {
-                    "Name": "SweetValley.cottoncandy",
-                    "Displayname": "{{i18n:cottoncandy.name}}",
-                    "Description": "{{i18n:cottoncandy.de}}",
-                    "Type": "Basic",
-                    "Category": -26,
-                    "Price": 100,
-                    "Edibility": 50,
-                    "IsDrink": false,
-                    "Buffs": [
-                        {
-                            "ID": "Food",
-                            "BuffID": null,
-                            "Duration": 300,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "LuckLevel": 1
-                            },
-                            "ContextTags": [
-                                "sugar_item"
-                            ]
-                        }
-                    ],
-                    "Texture": "Mods/SweetValley/Objects",
-                    "SpriteIndex": 18
-                }
-            }
-        },
-        {
             "LogName": "冬瓜",
             "Action": "EditData",
             "Target": "Data/Objects",
@@ -377,27 +299,6 @@
                     "SpriteIndex": 19,
                     "ContextTags": [
                         "color_green"
-                    ]
-                }
-            }
-        },
-        {
-            "LogName": "柠檬",
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": {
-                "SweetValley.lemon": {
-                    "Name": "SweetValley.lemon",
-                    "Displayname": "{{i18n:lemon.name}}",
-                    "Description": "{{i18n:lemon.de}}",
-                    "Type": "Basic",
-                    "Category": -79,
-                    "Price": 120,
-                    "Edibility": 10,
-                    "Texture": "Mods/SweetValley/Objects",
-                    "SpriteIndex": 20,
-                    "ContextTags": [
-                        "color_yellow"
                     ]
                 }
             }
@@ -464,27 +365,6 @@
                     "ContextTags": [
                         "color_white",
                         "sugar_item"
-                    ]
-                }
-            }
-        },
-        {
-            "LogName": "玉米淀粉",
-            "Action": "EditData",
-            "Target": "Data/Objects",
-            "Entries": {
-                "SweetValley.CornStarch": {
-                    "Name": "SweetValley.CornStarch",
-                    "Displayname": "{{i18n:CornStarch.name}}",
-                    "Description": "{{i18n:CornStarch.de}}",
-                    "Type": "Basic",
-                    "Category": -26,
-                    "Price": 30,
-                    "Edibility": -300,
-                    "Texture": "Mods/SweetValley/Objects",
-                    "SpriteIndex": 24,
-                    "ContextTags": [
-                        "color_white"
                     ]
                 }
             }
@@ -1193,7 +1073,7 @@
                     "Description": "{{i18n:MousseCake.de}}",
                     "Type": "Cooking",
                     "Category": -7,
-                    "Price": 430,
+                    "Price": 330,
                     "Edibility": 30,
                     "IsDrink": false,
                     "Buffs": [

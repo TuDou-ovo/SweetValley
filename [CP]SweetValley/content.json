@@ -1,5 +1,19 @@
 {
   "Format": "2.0.0",
+  "ConfigSchema": {
+    "lemon": {
+      "AllowValues": "SweetValley, ateliercrops",
+      "Default": "SweetValley",
+      "Section": "Compatibility",
+      "Description": "用哪个模组的柠檬？"
+    },
+    "cottoncandy": {
+      "AllowValues": "SweetValley, ateliercrops,",
+      "Default": "SweetValley",
+      "Section": "Compatibility",
+      "Description": "用哪个模组的棉花糖？"
+    }
+  },
   "CustomLocations": [
     {
       "LogName": "加载地图-甜味谷",
@@ -86,13 +100,76 @@
       "Action": "Include",
       "FromFile": "assets/Data/Trees.json"
     },
-    //{
-    //   "LogName": "SVE",
-    //   "Action": "Include",
-    //   "FromFile": "assets/Data/SVE.json",
-    //"When": {
-    //  "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
-    //}
-    //}
+    {
+      "LogName": "作物贴图",
+      "Action": "Load",
+      "Target": "Mods/SweetValley/Crops",
+      "FromFile": "assets/Objects/Crops.png"
+    },
+    {
+      "LogName": "鱼缸贴图",
+      "Action": "Load",
+      "Target": "Mods/SweetValley/AquariumFish",
+      "FromFile": "assets/Objects/AquariumFish.png"
+    },
+    {
+      "LogName": "物品贴图",
+      "Action": "Load",
+      "Target": "Mods/SweetValley/Objects",
+      "FromFile": "assets/Objects/Objects.png"
+    },
+    {
+      "LogName": "机器贴图",
+      "Action": "Load",
+      "Target": "Mods/SweetValley/Animation",
+      "FromFile": "assets/Objects/Animation.png"
+    },
+    {
+      "LogName": "树贴图",
+      "Action": "Load",
+      "Target": "Mods/SweetValley/Spring.cottoncandy_Tree,Mods/SweetValley/Summer.cottoncandy_Tree,Mods/SweetValley/Fall.cottoncandy_Tree,Mods/SweetValley/Winter.cottoncandy_Tree",
+      "FromFile": "assets/Objects/{{TargetWithoutPath}}.png"
+    },
+    {
+      "LogName": "果树贴图",
+      "Action": "Load",
+      "Target": "Mods/SweetValley/FruitTrees",
+      "FromFile": "assets/Objects/FruitTrees.png"
+    },
+    {
+      "LogName": "兼容物品贴图",
+      "Action": "Load",
+      "Target": "Mods/SweetValley/Compatibility",
+      "FromFile": "assets/Objects/Compatibility.png"
+    },
+    {
+      "LogName": "兼容项目",
+      "Action": "Include",
+      "FromFile": "assets/Compatibility/Compatibility.json"
+    },
+    {
+      "LogName": "SVE",
+      "Action": "Include",
+      "FromFile": "assets/Compatibility/SVE.json",
+      "When": {
+        "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
+      }
+    },
+    {
+      "LogName": "采集",
+      "Action": "Include",
+      "FromFile": "assets/Compatibility/ateliercrops.json",
+      "When": {
+        "HasMod |contains=wildflour.ateliercrops": true
+      }
+    },
+    {
+      "LogName": "聚宝盆机器",
+      "Action": "Include",
+      "FromFile": "assets/Compatibility/CornucopiaArtisanMachines.json",
+      "When": {
+        "HasMod |contains=Cornucopia.ArtisanMachines": true
+      }
+    },
   ]
 }

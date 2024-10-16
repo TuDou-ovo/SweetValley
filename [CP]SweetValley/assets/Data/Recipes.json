@@ -6,14 +6,14 @@
             "Target": "Data/CraftingRecipes",
             "Entries": {
                 //晾干
-                "SweetValley.Dryingrack_Recipes": "388 10 334 1//SweetValley.Dryingrack/true/Farming 2/{{i18n:Dryingrack_Recipes.name}}",
+                "SweetValley.Dryingrack_Recipes": "388 10 334 1//SweetValley.Dryingrack/true/Farming 2/{{i18n:Dryingrack.name}}",
                 //坩埚
-                "SweetValley.Candycrucible_Recipes": "388 2 335 3//SweetValley.Candycrucible/true/Farming 3/{{i18n:Candycrucible_Recipes.name}}",
+                "SweetValley.Candycrucible_Recipes": "388 2 335 3//SweetValley.Candycrucible/true/Farming 3/{{i18n:Candycrucible.name}}",
                 //图腾
-                "SweetValley.totem_Recipes": "245 1 SweetValley.butter 1 388 5//SweetValley.totem/true/{{i18n:totem_Recipes.name}}"
-                //"SweetValley.Lollipop_Recipes": "SweetValley.butter 1243 2 388 10//SweetValley.Lollipop/true/{{i18n:Lollipop_Recipes.name}}",
-                //"SweetValley.Roundlollipop_Recipes": "SweetValley.butter 1 SweetValley.Roundlollipop 2 388 10//SweetValley.Roundlollipop/true/{{i18n:Roundlollipop_Recipes.name}}",
-                //"SweetValley.cottoncandy_Recipes": "SweetValley.butter 1 SweetValley.cottoncandy 2 388 10//SweetValley.cottoncandy/true/{{i18n:cottoncandy_Recipes.name}}",
+                "SweetValley.totem_Recipes": "245 1 SweetValley.butter 1 388 5/Home/SweetValley.totem/false/Foraging 1{{i18n:totem.name}}"
+                //"SweetValley.Lollipop_Recipes": "SweetValley.butter 1243 2 388 10//SweetValley.Lollipop/true/{{i18n:Lollipop.name}}",
+                //"SweetValley.Roundlollipop_Recipes": "SweetValley.butter 1 SweetValley.Roundlollipop 2 388 10//SweetValley.Roundlollipop/true/{{i18n:Roundlollipop.name}}",
+                //"SweetValley.cottoncandy_Recipes": "SweetValley.butter 1 SweetValley.cottoncandy 2 388 10//SweetValley.cottoncandy/true/{{i18n:cottoncandy.name}}",
             }
         },
         {
@@ -22,21 +22,21 @@
             "Target": "Data/CookingRecipes",
             "Entries": {
                 //龙须酥
-                "SweetValley.Dragonbeardpastry_Recipes": "SweetValley.syrup 1 SweetValley.CornStarch 1/10 10/SweetValley.Dragonbeardpastry/null/{{i18n:Dragonbeardpastry_Recipes.name}}",
+                "Dragonbeardpastry Recipes": "SweetValley.syrup 1 SweetValley.CornStarch 2/9999 9999/SweetValley.Dragonbeardpastry/default/{{i18n:Dragonbeardpastry.name}}",
                 //糖苹果
-                "SweetValley.candyapple_Recipes": "SweetValley.syrup 1 613 1/10 10/SweetValley.candyapple/null/{{i18n:candyapple_Recipes.name}}",
+                "SweetValley.candyapple_Recipes": "SweetValley.syrup 1 613 1/9999 9999/SweetValley.candyapple/default/{{i18n:candyapple.name}}",
                 //馅饼
-                "SweetValley.Syruppie_Recipes": "SweetValley.syrup 1 SweetValley.butter 1 246 2 176 1/10 10/SweetValley.Syruppie/null/{{i18n:Syruppie_Recipes.name}}",
+                "SweetValley.Syruppie_Recipes": "SweetValley.syrup 1 SweetValley.butter 1 246 2 176 1/9999 9999/SweetValley.Syruppie/default/{{i18n:Syruppie.name}}",
                 //糖葱
-                "SweetValley.Sugaronion_Recipes": "SweetValley.syrup 2/10 10/SweetValley.Sugaronion/null/{{i18n:Sugaronion_Recipes.name}}",
+                "SweetValley.Sugaronion_Recipes": "SweetValley.syrup 2/9999 9999/SweetValley.Sugaronion/default/{{i18n:Sugaronion.name}}",
                 //拐杖糖
-                "SweetValley.Candycane_Recipes": "SweetValley.syrup 1/10 10/SweetValley.Candycane/null/{{i18n:Candycane_Recipes.name}}",
+                "SweetValley.Candycane_Recipes": "SweetValley.syrup 1/9999 9999/SweetValley.Candycane/default/{{i18n:Candycane.name}}",
                 //布丁
-                "SweetValley.pudding_Recipes": "SweetValley.butter 1 724 1 176 1/10 10/SweetValley.pudding/null/{{i18n:pudding_Recipes.name}}",
+                "SweetValley.pudding_Recipes": "SweetValley.butter 1 724 1 176 1/9999 9999/SweetValley.pudding/default/{{i18n:pudding.name}}",
                 //啤酒
-                "SweetValley.butterbeer_Recipes": "346 1 SweetValley.butter 1/10 10/SweetValley.butterbeer/null/{{i18n:butterbeer_Recipes.name}}",
+                "SweetValley.butterbeer_Recipes": "346 1 SweetValley.butter 1/9999 9999/SweetValley.butterbeer/default/{{i18n:butterbeer.name}}",
                 //慕斯
-                "SweetValley.MousseCake_Recipes": "SweetValley.butter 1 176 1 613 1 184 2/10 10/SweetValley.MousseCake/null/{{i18n:MousseCake_Recipes.name}}"
+                "SweetValley.MousseCake_Recipes": "SweetValley.butter 1 176 1 613 1 184 2/9999 9999/SweetValley.MousseCake/default/{{i18n:MousseCake.name}}"
             }
         },
         {

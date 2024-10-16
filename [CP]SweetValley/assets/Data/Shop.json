@@ -42,16 +42,6 @@
                             "Price": 80,
                             "ItemID": "(O)SweetValley.waxgourd_seed"
                         },
-                        { //棉花糖树
-                            "ID": "SweetValley.cottoncandy_seed",
-                            "Price": 200,
-                            "ItemID": "(O)SweetValley.cottoncandy_seed"
-                        },
-                        { //柠檬树
-                            "ID": "SweetValley.lemon_seed",
-                            "Price": 3000,
-                            "ItemID": "(O)SweetValley.lemon_seed"
-                        },
                         { //柚子树
                             "ID": "SweetValley.pomelo_seed",
                             "Price": 3000,
@@ -67,59 +57,45 @@
                             "Price": 40,
                             "ItemID": "(O)SweetValley.malt"
                         },
-                        { //图腾配方
-                            "ID": "SweetValley.totem",
-                            "Price": 100,
-                            "ItemID": "(O)SweetValley.totem",
-                            "IsRecipe": true
-                        },
-                        { //龙须酥配方
+                        { //龙须酥
                             "ID": "SweetValley.Dragonbeardpastry",
-                            "Price": 200,
-                            "ItemID": "(O)SweetValley.Dragonbeardpastry",
-                            "IsRecipe": true
+                            "Price": 330,
+                            "ItemID": "(O)SweetValley.Dragonbeardpastry"
                         },
-                        { //糖苹果配方
+                        { //糖苹果
                             "ID": "SweetValley.candyapple",
-                            "Price": 150,
-                            "ItemID": "(O)SweetValley.candyapple",
-                            "IsRecipe": true
+                            "Price": 350,
+                            "ItemID": "SweetValley.candyapple"
                         },
                         { //馅饼
                             "ID": "SweetValley.Syruppie",
-                            "Price": 200,
-                            "ItemID": "(O)SweetValley.Syruppie",
-                            "IsRecipe": true
+                            "Price": 380,
+                            "ItemID": "(O)SweetValley.Syruppie"
                         },
                         { //葱
                             "ID": "SweetValley.Sugaronion",
-                            "Price": 100,
-                            "ItemID": "(O)SweetValley.Sugaronion",
-                            "IsRecipe": true
+                            "Price": 180,
+                            "ItemID": "(O)SweetValley.Sugaronion"
                         },
                         { //拐杖糖
                             "ID": "SweetValley.Candycane",
-                            "Price": 150,
-                            "ItemID": "(O)SweetValley.Candycane",
-                            "IsRecipe": true
+                            "Price": 260,
+                            "ItemID": "(O)SweetValley.Candycane"
                         },
                         { //布丁
                             "ID": "SweetValley.pudding",
-                            "Price": 200,
-                            "ItemID": "(O)SweetValley.pudding",
-                            "IsRecipe": true
+                            "Price": 420,
+                            "ItemID": "(O)SweetValley.pudding"
                         },
                         { //啤酒
                             "ID": "SweetValley.butterbeer",
-                            "Price": 200,
-                            "ItemID": "(O)SweetValley.butterbeer",
-                            "IsRecipe": true
+                            "Price": 350,
+                            "ItemID": "(O)SweetValley.butterbeer"
                         },
                         { //慕斯
                             "ID": "SweetValley.MousseCake",
-                            "Price": 230,
-                            "ItemID": "(O)SweetValley.MousseCake",
-                            "IsRecipe": true
+                            "Price": 330,
+                            "ItemID": "(O)SweetValley.MousseCake"
                         }
                     ]
                 }

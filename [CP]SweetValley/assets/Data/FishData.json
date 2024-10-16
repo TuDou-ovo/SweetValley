@@ -1,12 +1,6 @@
 {
     "Changes": [
         {
-            "LogName": "鱼缸贴图",
-            "Action": "Load",
-            "Target": "Mods/SweetValley/AquariumFish",
-            "FromFile": "assets/Objects/AquariumFish.png"
-        },
-        {
             "LogName": "方糖鱼鱼缸数据",
             "Action": "EditData",
             "Target": "Data/AquariumFish",
