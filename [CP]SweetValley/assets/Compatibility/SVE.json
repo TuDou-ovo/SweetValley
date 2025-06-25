@@ -1,7 +1,7 @@
 {
     "Changes": [
         {
-            "LogName": "DVE替换甜味谷入口",
+            "LogName": "SVE替换甜味谷入口",
             "Action": "EditMap",
             "Target": "Maps/Woods",
             "FromFile": "assets/Map/SweetentranceSVE.tmx",
@@ -16,7 +16,7 @@
         {
             "LogName": "SVE甜味谷传送点",
             "Action": "EditMap",
-            "Target": "Maps/Custom_SweetValley.Sweet",
+            "Target": "Maps/Custom_SweetValley.ChocolateWaterfall",
             "AddWarps": [
                 "22 53 Woods 66 8",
                 "23 53 Woods 66 8",
@@ -70,7 +70,7 @@
                             "GlowColor": null,
                             "CustomAttributes": {
                                 "LuckLevel": 1,
-                                "MaxStamina": 1
+                                "MaxStamina": 30
                             },
                             "ContextTags": [
                                 "sugar_item"

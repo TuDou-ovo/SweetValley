@@ -1,0 +1,1099 @@
+{
+    "Changes": [
+        {
+            "LogName": "棉花糖树苗",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.cottoncandy_seed": {
+                    "Name": "SweetValley.cottoncandy_seed",
+                    "Displayname": "{{i18n:cottoncandy_seed.name}}",
+                    "Description": "{{i18n:cottoncandy_seed.de}}",
+                    "Type": "seed",
+                    "Category": -74,
+                    "Price": 500,
+                    "Edibility": -300,
+                    "ExcludeFromRandomSale": "true",
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 13
+                }
+            },
+            "When": {
+                "cottoncandy": "SweetValley"
+            }
+        },
+        {
+            "LogName": "棉花糖",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.cottoncandy": {
+                    "Name": "SweetValley.cottoncandy",
+                    "Displayname": "{{i18n:cottoncandy.name}}",
+                    "Description": "{{i18n:cottoncandy.de}}",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 100,
+                    "Edibility": 50,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "ID": "Food",
+                            "BuffID": null,
+                            "Duration": 300,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "LuckLevel": 1
+                            },
+                            "ContextTags": [
+                                "sugar_item"
+                            ]
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 18
+                }
+            },
+            "When": {
+                "cottoncandy": "SweetValley"
+            }
+        },
+        {
+            "LogName": "棉花糖树",
+            "Action": "EditData",
+            "Target": "Data/WildTrees",
+            "Entries": {
+                "SweetValley.cottoncandy_Tree": {
+                    "Textures": [
+                        {
+                            "Condition": null,
+                            "Season": "Spring",
+                            "Texture": "Mods/SweetValley/Spring.cottoncandy_Tree"
+                        },
+                        {
+                            "Condition": null,
+                            "Season": "Summer",
+                            "Texture": "Mods/SweetValley/Summer.cottoncandy_Tree"
+                        },
+                        {
+                            "Condition": null,
+                            "Season": "Fall",
+                            "Texture": "Mods/SweetValley/Fall.cottoncandy_Tree"
+                        },
+                        {
+                            "Condition": null,
+                            "Season": "Winter",
+                            "Texture": "Mods/SweetValley/Winter.cottoncandy_Tree"
+                        }
+                    ],
+                    "SeedItemId": "SweetValley.cottoncandy_seed",
+                    "SeedPlantable": true,
+                    "GrowthChance": 0.2,
+                    "FertilizedGrowthChance": 1.0,
+                    "SeedSpreadChance": 0.15,
+                    "SeedOnShakeChance": 0.05,
+                    "SeedOnChopChance": 0.75,
+                    "DropWoodOnChop": true,
+                    "DropHardwoodOnLumberChop": true,
+                    "IsLeafy": true,
+                    "IsLeafyInWinter": false,
+                    "IsLeafyInFall": true,
+                    "PlantableLocationRules": null,
+                    "GrowsInWinter": false,
+                    "IsStumpDuringWinter": false,
+                    "AllowWoodpeckers": false,
+                    "UseAlternateSpriteWhenNotShaken": false,
+                    "UseAlternateSpriteWhenSeedReady": false,
+                    "DebrisColor": null,
+                    "SeedDropItems": null,
+                    "ChopItems": [
+                        {
+                            "MinSize": null,
+                            "MaxSize": null,
+                            "ForStump": true,
+                            "Season": null,
+                            "Chance": 1.0,
+                            "Condition": null,
+                            "Id": "(O)92",
+                            "ItemId": "(O)92",
+                            "RandomItemId": null,
+                            "MaxItems": null,
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                            "ModData": null,
+                            "PerItemCondition": null
+                        }
+                    ],
+                    "TapItems": [
+                        {
+                            "PreviousItemId": null,
+                            "DaysUntilReady": 3,
+                            "DaysUntilReadyModifiers": null,
+                            "DaysUntilReadyModifierMode": "Stack",
+                            "Season": null,
+                            "Chance": 1.0,
+                            "Condition": null,
+                            "Id": "Default",
+                            "ItemId": "SweetValley.cottoncandy",
+                            "RandomItemId": null,
+                            "MaxItems": null,
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "ObjectInternalName": null,
+                            "ObjectDisplayName": null,
+                            "ToolUpgradeLevel": -1,
+                            "IsRecipe": false,
+                            "StackModifiers": null,
+                            "StackModifierMode": "Stack",
+                            "QualityModifiers": null,
+                            "QualityModifierMode": "Stack",
+                            "ModData": null,
+                            "PerItemCondition": null
+                        }
+                    ],
+                    "ShakeItems": null,
+                    "CustomFields": null,
+                    "GrowsMoss": false
+                }
+            },
+            "When": {
+                "cottoncandy": "SweetValley"
+            }
+        },
+        {
+            "LogName": "棉花糖树商店",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SweetValley.Shop",
+                "Items"
+            ],
+            "Entries": {
+                "SweetValley.cottoncandy_seed": {
+                    "Id": "SweetValley.cottoncandy_seed",
+                    "ItemId": "SweetValley.cottoncandy_seed",
+                    "Price": 200
+                }
+            },
+            "When": {
+                "cottoncandy": "SweetValley"
+            }
+        },
+        {
+            "LogName": "棉花糖树商店",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "SweetValley.Shop",
+                "Items"
+            ],
+            "Entries": {
+                "SweetValley.lemon_seed": {
+                    "Id": "SweetValley.lemon_seed",
+                    "ItemId": "SweetValley.lemon_seed",
+                    "Price": 3000
+                }
+            },
+            "When": {
+                "lemon": "SweetValley"
+            }
+        },
+        {
+            "LogName": "柠檬",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.lemon": {
+                    "Name": "SweetValley.lemon",
+                    "Displayname": "{{i18n:lemon.name}}",
+                    "Description": "{{i18n:lemon.de}}",
+                    "Type": "Basic",
+                    "Category": -79,
+                    "Price": 120,
+                    "Edibility": 10,
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 20,
+                    "ContextTags": [
+                        "color_yellow"
+                    ]
+                }
+            },
+            "When": {
+                "lemon": "SweetValley"
+            }
+        },
+        {
+            "LogName": "柠檬树苗",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "SweetValley.lemon_seed": {
+                    "Name": "SweetValley.lemon_seed",
+                    "Displayname": "{{i18n:lemon_seed.name}}",
+                    "Description": "{{i18n:lemon_seed.de}}",
+                    "Type": "seed",
+                    "Category": -74,
+                    "Price": 3000,
+                    "Edibility": -300,
+                    "ExcludeFromRandomSale": "true",
+                    "Texture": "Mods/SweetValley/Objects",
+                    "SpriteIndex": 14
+                }
+            },
+            "When": {
+                "lemon": "SweetValley"
+            }
+        },
+        {
+            "LogName": "柠檬果树",
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "SweetValley.lemon_seed": {
+                    "DisplayName": "SweetValley.lemon_seed",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "ID": "Default",
+                            "ItemID": "(O)SweetValley.lemon"
+                        }
+                    ],
+                    "Texture": "Mods/SweetValley/FruitTrees",
+                    "TextureSpriteRow": 1
+                }
+            },
+            "When": {
+                "lemon": "SweetValley"
+            }
+        },
+        {
+            "LogName": "糖果坩埚加工",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC)SweetValley.Candycrucible": {
+                    "OutputRules": [
+                        { //年糕
+                            "Id": "SweetValley.NewYearcake",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)271",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "ItemId": "(O)SweetValley.NewYearcake",
+                                    "Quality": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 80
+                        },
+                        { //麦芽糖
+                            "Id": "SweetValley.maltose",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)SweetValley.malt"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "ItemId": "(O)SweetValley.maltose",
+                                    "Quality": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 80
+                        },
+                        { //牛轧糖
+                            "Id": "SweetValley.nougat",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)408",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)wildflour.ateliercrops_mallow",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:nougat_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.nougat",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //柠檬糖
+                            "Id": "SweetValley.lemondrops",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)wildflour.ateliercrops_lemon",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.lemondrops",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //柚子糖
+                            "Id": "SweetValley.Yuzucandy",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)SweetValley.pomelo",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.Yuzucandy",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //话梅糖
+                            "Id": "SweetValley.SugarPlum",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)406",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.SugarPlum",
+                                    "Quality": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 80
+                        },
+                        { //冬瓜糖
+                            "Id": "SweetValley.candiedmelon",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)SweetValley.waxgourd",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.candiedmelon",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //椰子糖
+                            "Id": "SweetValley.coconutcandy",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)88",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.coconutcandy",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //姜片糖
+                            "Id": "SweetValley.CandiedGinger",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)829",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.CandiedGinger",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //酒心糖
+                            "Id": "SweetValley.JiuxinSugar",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)303",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.JiuxinSugar",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //奶糖
+                            "Id": "SweetValley.toffee",
+                            "Triggers": [
+                                {
+                                    "RequiredTags": [
+                                        "category_milk"
+                                    ],
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.toffee",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //罐头
+                            "Id": "SweetValley.can",
+                            "Triggers": [
+                                {
+                                    "RequiredTags": [
+                                        "category_fruits"
+                                    ],
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "ItemId": "SweetValley.can",
+                                    "ObjectInternalName": "{0} SweetValley.can",
+                                    "ObjectDisplayName": "[LocalizedText Strings/Objects:SweetValley.can_0 %PRESERVED_DISPLAY_NAME]",
+                                    "PreserveId": "DROP_IN",
+                                    "CopyPrice": true,
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.CopyColor": "true",
+                                        "selph.ExtraMachineConfig.RequirementTags.1": "id_o_245",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:245_need}}"
+                                    },
+                                    "PriceModifiers": [
+                                        {
+                                            "Id": "Friedones",
+                                            "Modification": "Multiply",
+                                            "Amount": 5
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 300
+                        }
+                    ],
+                    "WobbleWhileWorking": true,
+                    "ShowNextIndexWhileWorking": true
+                }
+            },
+            "When": {
+                "lemon": "ateliercrops",
+                "cottoncandy": "ateliercrops"
+            }
+        },
+        {
+            "LogName": "糖果坩埚加工",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC)SweetValley.Candycrucible": {
+                    "OutputRules": [
+                        { //年糕
+                            "Id": "SweetValley.NewYearcake",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)271",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "ItemId": "(O)SweetValley.NewYearcake",
+                                    "Quality": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 80
+                        },
+                        { //麦芽糖
+                            "Id": "SweetValley.maltose",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)SweetValley.malt"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "ItemId": "(O)SweetValley.maltose",
+                                    "Quality": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 80
+                        },
+                        { //牛轧糖
+                            "Id": "SweetValley.nougat",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)408",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.cottoncandy",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:nougat_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.nougat",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //柠檬糖
+                            "Id": "SweetValley.lemondrops",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)wildflour.ateliercrops_lemon",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.lemondrops",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //柚子糖
+                            "Id": "SweetValley.Yuzucandy",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)SweetValley.pomelo",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.Yuzucandy",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //话梅糖
+                            "Id": "SweetValley.SugarPlum",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)406",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.SugarPlum",
+                                    "Quality": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 80
+                        },
+                        { //冬瓜糖
+                            "Id": "SweetValley.candiedmelon",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)SweetValley.waxgourd",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.candiedmelon",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //椰子糖
+                            "Id": "SweetValley.coconutcandy",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)88",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.coconutcandy",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //姜片糖
+                            "Id": "SweetValley.CandiedGinger",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)829",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.CandiedGinger",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //酒心糖
+                            "Id": "SweetValley.JiuxinSugar",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)303",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.JiuxinSugar",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //奶糖
+                            "Id": "SweetValley.toffee",
+                            "Triggers": [
+                                {
+                                    "RequiredTags": [
+                                        "category_milk"
+                                    ],
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.toffee",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //罐头
+                            "Id": "SweetValley.can",
+                            "Triggers": [
+                                {
+                                    "RequiredTags": [
+                                        "category_fruits"
+                                    ],
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "ItemId": "SweetValley.can",
+                                    "ObjectInternalName": "{0} SweetValley.can",
+                                    "ObjectDisplayName": "[LocalizedText Strings/Objects:SweetValley.can_0 %PRESERVED_DISPLAY_NAME]",
+                                    "PreserveId": "DROP_IN",
+                                    "CopyPrice": true,
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.CopyColor": "true",
+                                        "selph.ExtraMachineConfig.RequirementTags.1": "id_o_245",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:245_need}}"
+                                    },
+                                    "PriceModifiers": [
+                                        {
+                                            "Id": "Friedones",
+                                            "Modification": "Multiply",
+                                            "Amount": 5
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 300
+                        }
+                    ],
+                    "WobbleWhileWorking": true,
+                    "ShowNextIndexWhileWorking": true
+                }
+            },
+            "When": {
+                "lemon": "ateliercrops",
+                "cottoncandy": "SweetValley"
+            }
+        },
+        {
+            "LogName": "糖果坩埚加工",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC)SweetValley.Candycrucible": {
+                    "OutputRules": [
+                        { //年糕
+                            "Id": "SweetValley.NewYearcake",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)271",
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "ItemId": "(O)SweetValley.NewYearcake",
+                                    "Quality": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 80
+                        },
+                        { //麦芽糖
+                            "Id": "SweetValley.maltose",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)SweetValley.malt"
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "ItemId": "(O)SweetValley.maltose",
+                                    "Quality": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 80
+                        },
+                        { //牛轧糖
+                            "Id": "SweetValley.nougat",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)408",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)wildflour.ateliercrops_mallow",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:nougat_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.nougat",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //柠檬糖
+                            "Id": "SweetValley.lemondrops",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)wildflour.ateliercrops_lemon",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.lemondrops",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //柚子糖
+                            "Id": "SweetValley.Yuzucandy",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)SweetValley.pomelo",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.Yuzucandy",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //话梅糖
+                            "Id": "SweetValley.SugarPlum",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)406",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.SugarPlum",
+                                    "Quality": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 80
+                        },
+                        { //冬瓜糖
+                            "Id": "SweetValley.candiedmelon",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)SweetValley.waxgourd",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.candiedmelon",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //椰子糖
+                            "Id": "SweetValley.coconutcandy",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)88",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.coconutcandy",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //姜片糖
+                            "Id": "SweetValley.CandiedGinger",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)829",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.CandiedGinger",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //酒心糖
+                            "Id": "SweetValley.JiuxinSugar",
+                            "Triggers": [
+                                {
+                                    "RequiredItemId": "(O)303",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.JiuxinSugar",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //奶糖
+                            "Id": "SweetValley.toffee",
+                            "Triggers": [
+                                {
+                                    "RequiredTags": [
+                                        "category_milk"
+                                    ],
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": true,
+                            "OutputItem": [
+                                {
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.RequirementId.1": "(O)SweetValley.syrup",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:syrup_need}}"
+                                    },
+                                    "ItemId": "(O)SweetValley.toffee",
+                                    "Quality": 2
+                                }
+                            ],
+                            "MinutesUntilReady": 100
+                        },
+                        { //罐头
+                            "Id": "SweetValley.can",
+                            "Triggers": [
+                                {
+                                    "RequiredTags": [
+                                        "category_fruits"
+                                    ],
+                                    "RequiredCount": 2
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "ItemId": "SweetValley.can",
+                                    "ObjectInternalName": "{0} SweetValley.can",
+                                    "ObjectDisplayName": "[LocalizedText Strings/Objects:SweetValley.can_0 %PRESERVED_DISPLAY_NAME]",
+                                    "PreserveId": "DROP_IN",
+                                    "CopyPrice": true,
+                                    "CustomData": {
+                                        "selph.ExtraMachineConfig.CopyColor": "true",
+                                        "selph.ExtraMachineConfig.RequirementTags.1": "id_o_245",
+                                        "selph.ExtraMachineConfig.RequirementInvalidMsg": "{{i18n:245_need}}"
+                                    },
+                                    "PriceModifiers": [
+                                        {
+                                            "Id": "Friedones",
+                                            "Modification": "Multiply",
+                                            "Amount": 5
+                                        }
+                                    ]
+                                }
+                            ],
+                            "MinutesUntilReady": 300
+                        }
+                    ],
+                    "WobbleWhileWorking": true,
+                    "ShowNextIndexWhileWorking": true
+                }
+            },
+            "When": {
+                "lemon": "SweetValley",
+                "cottoncandy": "ateliercrops"
+            }
+        }
+    ]
+}

@@ -17,9 +17,6 @@
                     "Texture": "Mods/SweetValley/Objects",
                     "SpriteIndex": 13
                 }
-            },
-            "When": {
-                "cottoncandy": "SweetValley"
             }
         },
         {
@@ -54,9 +51,6 @@
                     "Texture": "Mods/SweetValley/Objects",
                     "SpriteIndex": 18
                 }
-            },
-            "When": {
-                "cottoncandy": "SweetValley"
             }
         },
         {
@@ -166,9 +160,6 @@
                     "CustomFields": null,
                     "GrowsMoss": false
                 }
-            },
-            "When": {
-                "cottoncandy": "SweetValley"
             }
         },
         {
@@ -185,9 +176,6 @@
                     "ItemId": "SweetValley.cottoncandy_seed",
                     "Price": 200
                 }
-            },
-            "When": {
-                "cottoncandy": "SweetValley"
             }
         },
         {
@@ -204,9 +192,6 @@
                     "ItemId": "SweetValley.lemon_seed",
                     "Price": 3000
                 }
-            },
-            "When": {
-                "lemon": "SweetValley"
             }
         },
         {
@@ -228,9 +213,6 @@
                         "color_yellow"
                     ]
                 }
-            },
-            "When": {
-                "lemon": "SweetValley"
             }
         },
         {
@@ -250,9 +232,6 @@
                     "Texture": "Mods/SweetValley/Objects",
                     "SpriteIndex": 14
                 }
-            },
-            "When": {
-                "lemon": "SweetValley"
             }
         },
         {
@@ -274,9 +253,6 @@
                     "Texture": "Mods/SweetValley/FruitTrees",
                     "TextureSpriteRow": 1
                 }
-            },
-            "When": {
-                "lemon": "SweetValley"
             }
         },
         {
@@ -298,9 +274,6 @@
                         "color_white"
                     ]
                 }
-            },
-            "When": {
-                "HasMod |contains=Cornucopia.ArtisanMachines": false
             }
         },
         {
@@ -327,9 +300,6 @@
                     ],
                     "MaxDailyConversions": 80
                 }
-            },
-            "When": {
-                "HasMod |contains=Cornucopia.ArtisanMachines": false
             }
         },
         {
@@ -338,10 +308,7 @@
             "Target": "Data/CookingRecipes",
             "Entries": {
                 "Dragonbeardpastry Recipes": "SweetValley.syrup 1 SweetValley.CornStarch 2/9999 9999/SweetValley.Dragonbeardpastry/default/{{i18n:Dragonbeardpastry_Recipes.name}}"
-            },
-            "When": {
-                "HasMod |contains=Cornucopia.ArtisanMachines": false
             }
-        },
+        }
     ]
 }

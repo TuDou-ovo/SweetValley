@@ -1,0 +1,12 @@
+{
+    "Changes": [
+        {
+            "LogName": "龙须酥配方",
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "Dragonbeardpastry Recipes": "SweetValley.syrup 1 Cornucopia_CornFlour 2/9999 9999/SweetValley.Dragonbeardpastry/default/{{i18n:Dragonbeardpastry_Recipes.name}}"
+            }
+        },
+    ]
+}

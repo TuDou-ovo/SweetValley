@@ -1,6 +1,6 @@
 {
-  "Format": "2.0.0",
-  "ConfigSchema": {
+  "Format": "2.4.0",
+  /*  "ConfigSchema": {
     "lemon": {
       "AllowValues": "SweetValley, ateliercrops",
       "Default": "SweetValley",
@@ -13,13 +13,33 @@
       "Section": "Compatibility",
       "Description": "用哪个模组的棉花糖？"
     }
-  },
+},*/
   "CustomLocations": [
     {
-      "LogName": "加载地图-甜味谷",
-      "Name": "Custom_SweetValley.Sweet",
-      "FromMapFile": "assets/Map/Sweet.tmx"
-    }
+      "LogName": "加载地图-巧克力瀑布",
+      "Name": "Custom_SweetValley.ChocolateWaterfall",
+      "FromMapFile": "assets/Map/ChocolateWaterfall.tmx"
+    } /*,
+        {
+      "LogName": "加载地图-糖果矿洞F1",
+      "Name": "Custom_SweetValley.CandyMineF1",
+      "FromMapFile": "assets/Map/CandyMineF1.tmx"
+    },
+            {
+      "LogName": "加载地图-糖果矿洞F2",
+      "Name": "Custom_SweetValley.CandyMineF2",
+      "FromMapFile": "assets/Map/CandyMineF2.tmx"
+    },
+            {
+      "LogName": "加载地图-糖果矿洞F3",
+      "Name": "Custom_SweetValley.CandyMineF3",
+      "FromMapFile": "assets/Map/CandyMineF3.tmx"
+    },
+        {
+      "LogName": "加载地图-姜饼人村庄",
+      "Name": "Custom_SweetValley.GingerbreadManVillage",
+      "FromMapFile": "assets/Map/GingerbreadManVillage.tmx"
+    }*/
   ],
   "Changes": [
     {
@@ -42,7 +62,7 @@
           "Id": "{{ModId}}_Sweet",
           "SectionId": "{{ModId}}_SweetValley",
           "DisplayName": "{{i18n:cjb_Sweet}}",
-          "Location": "Custom_SweetValley.Sweet",
+          "Location": "Custom_SweetValley.ChocolateWaterfall",
           "Tile": "20, 21"
         }
       }
@@ -154,7 +174,7 @@
       "When": {
         "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true
       }
-    },
+    } /*,
     {
       "LogName": "采集",
       "Action": "Include",
@@ -170,6 +190,6 @@
       "When": {
         "HasMod |contains=Cornucopia.ArtisanMachines": true
       }
-    },
+    }*/
   ]
 }

@@ -36,10 +36,21 @@ The weapon won't fall now
 Totems can be made now
 
 1.4.0
-文本优化
+调整地图并解决了鱼不容易上钩的问题
+Adjusting the map solved the problem of fish being difficult to bite
+
+It's not rare, I guess it's because the water surface on the map is too small to detect the fish hooked, so I made some modifications to the map and confirmed that it can be obtained normally
+
+1.5.0
+小优化
+
+1.6.0
+甜味山谷船新版本到来！增加大量新物品以及对旧物品的优化完善，以及一套可选的甜蜜家具！
 
 
-这是一个有很多糖果的模组·This is a mod with many candies
+这是一个有很多糖果的模组
+This is a mod with many candies
+
 
 模组持续更新优化中，因为制作只有我一个人，所以可能会有我测试不到的bug，希望随时反馈我会尽快修复...！
 模组评论区或者我的 *bilibili* 账号 *GitHub* 网站 的反馈我都可以收到 
@@ -62,9 +73,9 @@ Finally, thank you in advance for downloading and liking it. I am honored~
 Map entrance: Next to the statue of the Secret Forest
 https://i.ibb.co/wc9gbxr/Map1.png
 
-地图展示：一条不知道源头的巧克力小溪穿过山谷，旁边坐落着一家小小的糖果屋商店
-Map display: A chocolate stream with an unknown source runs through the valley, and next to it is a small candy shop
-https://i.ibb.co/6tvqyzL/Map2.png
+地图展示：你可以在姜饼人村落找到  姜饼人们，还可以种植只能在糖果谷生存的植物。往深处走，一条不知道源头的巧克力瀑布落下，形成了巧克力湖，湖里有各种各样奇妙的小鱼！瀑布后方是一个隐秘的山洞，里面是甜蜜的危险还是...?
+Map display: 
+
 
 
 作物·Crops

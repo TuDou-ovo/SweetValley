@@ -10,7 +10,7 @@
                 //坩埚
                 "SweetValley.Candycrucible_Recipes": "388 2 335 3//SweetValley.Candycrucible/true/Farming 3/{{i18n:Candycrucible.name}}",
                 //图腾
-                "SweetValley.totem_Recipes": "245 1 SweetValley.butter 1 388 5/Home/SweetValley.totem/false/Foraging 1{{i18n:totem.name}}"
+                "SweetValley.totem_Recipes": "245 1 SweetValley.butter 1 388 5/Home/SweetValley.totem/false/Foraging 1/{{i18n:totem.name}}"
                 //"SweetValley.Lollipop_Recipes": "SweetValley.butter 1243 2 388 10//SweetValley.Lollipop/true/{{i18n:Lollipop.name}}",
                 //"SweetValley.Roundlollipop_Recipes": "SweetValley.butter 1 SweetValley.Roundlollipop 2 388 10//SweetValley.Roundlollipop/true/{{i18n:Roundlollipop.name}}",
                 //"SweetValley.cottoncandy_Recipes": "SweetValley.butter 1 SweetValley.cottoncandy 2 388 10//SweetValley.cottoncandy/true/{{i18n:cottoncandy.name}}",

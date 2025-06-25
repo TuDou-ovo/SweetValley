@@ -11,24 +11,30 @@
                 "Width": 1,
                 "Height": 2
             },
-            "Update": "OnLocationChange"
+            "Update": "OnLocationChange",
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
         },
         {
             "LogName": "甜味谷传送点",
             "Action": "EditMap",
-            "Target": "Maps/Custom_SweetValley.Sweet",
+            "Target": "Maps/Custom_SweetValley.ChocolateWaterfall",
             "AddWarps": [
                 "22 53 Woods 15 10",
                 "23 53 Woods 15 10",
                 "24 53 Woods 15 10"
-            ]
+            ],
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false
+            }
         },
         {
             "LogName": "甜味谷钓鱼点",
             "Action": "EditData",
             "Target": "Data/Locations",
             "TargetField": [
-                "Custom_SweetValley.Sweet",
+                "Custom_SweetValley.ChocolateWaterfall",
                 "Fish"
             ],
             "Entries": {
@@ -36,8 +42,28 @@
                     "Id": "SweetValley.Squaresugarfish",
                     "ItemId": "(O)SweetValley.Squaresugarfish",
                     "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "132": {
+                    "Id": "132",
+                    "ItemId": "(O)132",
+                    "Condition": "LOCATION_SEASON Here spring summer fall winter"
+                },
+                "158": {
+                    "Id": "158",
+                    "ItemId": "(O)158",
+                    "Condition": "LOCATION_SEASON Here fall"
+                },
+                "128": {
+                    "Id": "128",
+                    "ItemId": "(O)128",
+                    "Condition": "LOCATION_SEASON Here summer"
+                },
+                "141": {
+                    "Id": "141",
+                    "ItemId": "(O)141",
+                    "Condition": "LOCATION_SEASON Here winter"
                 }
             }
-        },
+        }
     ]
 }

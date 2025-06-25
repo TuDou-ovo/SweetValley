@@ -1,8 +1,8 @@
 {
-    "Name": "甜味山谷[CP]",
+    "Name": "甜味山谷",
     "Author": "土豆",
-    "Version": "1.4.0",
-    "Description": "很多很多糖！",
+    "Version": "1.6.0",
+    "Description": "很多糖！",
     "UniqueID": "Thisshore.SweetValleyCP",
     "UpdateKeys": [
         "Nexus: 28521"
